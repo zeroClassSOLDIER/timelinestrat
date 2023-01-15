@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Graph2d | Shading Example</title>
+  <!-- <link rel='stylesheet' href='https://visjs.github.io/vis-timeline/styles/vis-timeline-graph2d.min.css'><link rel="stylesheet" href="./style.css"> -->
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div>
+<h2>Aircrew: Pilot Manning</h2>
+<br />
+
+<form action="/action_page.php">
+  <label>Select Platform:</label>
+  <select id="MDSCode" onchange="selectGroup()">
+    <option value="Default1">B001B, B002A, B052H</option>
+    <option value="B001B1">B001B</option>
+    <option value="B002A1">B002A</option>
+    <option value="B052H1">B052H</option>
+  </select>
+  <br><br>
+</form>
+
+<div id="visualization"></div>
+</div>
+
+<div>
+<h2>Aircrew: Combat Systems Officer Manning</h2>
+<br />
+
+<form action="/action_page.php">
+  <label>Select Platform:</label>
+  <select id="MDSCode2" onchange="selectGroup2()">
+    <option value="Default2">B001B, B002A, B052H</option>
+    <option value="B001B2">B001B</option>
+    <option value="B002A2">B002A</option>
+    <option value="B052H2">B052H</option>
+  </select>
+  <br><br>
+</form>
+
+<div id="visualization2"></div>
+</div>
+<!-- partial -->
+  <script src='https://visjs.github.io/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

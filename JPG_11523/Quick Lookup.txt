@@ -1,0 +1,257 @@
+rosethrnwrng wth hm9:28 A.M. 
+temp_git/Basic Dashboard/Basic Dashboard(3/29/2022 9:46 A.M.)
+	node_modules(3/17/2022 1:45 PM)
+	src(3/16/2022 3:54 PM)/app.ts(3/16/2022 3:54 PM) /cfg.ts(3/16/2022 3:53 PM) /ds.ts(3/16/2022 3:54 PM) /index.ts(3/16/2022 3:54 PM) /strings(3/16/2022 3:52 PM) /styles.scss(3/16/2022 3:54 PM)
+
+	package.json(3/16/2022 3:55 PM)
+	packasge-lock.json(3/16/2022 3:48 PM)
+	tsconfig.json(3/16/2022 3:50 PM)
+	webpack.config.js(3/16/2022 3:52 PM)
+Work Numbers: (318) 456 - 49814552
+		1128
+		4565
+rgba(255, 99, 132, 1)
+yepConfirmation # EAA9F804 
+2:53 PM 5/4/202112:25 PM 5/4/2021
+Installation and Readiness on A4
+RSVP RPA conference 
+Your Confirmation number is:18C2713E
+
+Useful Git Commands and Combinations:
+	-- Push a local branch to a different remote repos than what it's tracking
+	git remote set-url origin <git_repos>
+	git push -f <git_repos>
+
+	-- Update remote branches listing
+	git remote update
+	git branch -r
+
+	-- Add a file to an existing commit
+	git add <file_name>
+	git commit --amend --no-edit
+
+	-- List all branches in local and remote repos
+	git branch -a
+	
+	-- List only remote repos 
+	git branch -r
+
+	-- Show the branches and their commits
+	git show-branch
+
+	-- Create local branches
+	git branch <local_branch_name>
+	
+	-- Create remote branches
+	git push origin <remote_branch_name>
+
+	-- Push already existing local branch to remote branch
+	git push -u origin <branch_name>
+
+	-- Check all of the upstream branches 
+	git branch -vv
+
+	-- Sync changes from the upstream repo
+		-- fetch upostream changes
+		git fetch upstream
+		-- Merge the changes from the upstream branch to the local branch
+		git merge upstream/main
+
+	-- Set local branch to push to remote branch
+		-- Change your ssh url by an http url for your remote 'origin'
+		git remote set-url origin <remote_repos>
+		-- Set upstream branch
+		git branch --set-upstream-to <origin_remote_repos>
+
+	-- Delete a local branch
+	git branch -d <local_branch_name>
+
+	-- Delete a local branch regardless of its merged status
+	git branch -D <local_branch_name>
+
+	-- Delete a remote branch
+	git push <remote_name> -d <remote_branch_name>	
+
+	-- Create a local branch from existing remote branch 
+	git branch --track <local_branch_name> origin/<remote_branch_name>
+
+	-- Merge local branches
+
+	-- Amend commit message
+	git commit --amend -m <message>
+	
+McPhierson wants to see the battle rythm.
+
+Emahni - 456 1604
+
+git remote set-url origin
+https://www.ohome.apps.mil/?auth=2&home=1
+
+GitHub token (6/23/2022): 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
+GitHub token (7/25/2022): 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
+GitHub token (8/25/2022): 
+GitHub token (9/12/2022): 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
+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
+GitHub token (10/13/2022): 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
+GitHub token (11/14/2022): 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
+GitHub token (12/26/2022): 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
+
+
+INC000027581984
+
+KM Number: 318 456-4981
+dial out # 
+     DSN - 94
+     Public/COMM - 98
+     1-800 numbers - 99
+
+joshua.gardiner.ctr@us.af.mil
+joshua.c.gardiner2.ctr@mail.smil.mil
+joshua.c.gardiner2.ctr@cvr.mil
+
+Barney Ellis -
+     318-456-0699
+     barney.ellis.1.ctr@us.af.mil
+
+
+Office 318-456-1015
+PA 2nd Bomb Wing
+
+Bldg: 5546
+Room: 010
+terry belvin - maintenance
+
+Directorates:
+A1 - Personnel and manpower (plays out who and what goes where)
+joshua.gardiner.ctr@us.af.mi
+A2 - Intelligence, Reconnaisance, and Surveillance
+A3/6 - Operations and Communciations
+A4 - Logistics and Engineering
+A5/8 - Strategic Plans, Programs, and Requirements
+A9 - Innovation, Analysis, and Leadership development
+Special Staff - (FM, GRIO, HC HO, IG, IP, JA, SE, SG, ST)
+
+A1 - HCB (Human Capital Board)
+A2 - LRB (Lethality and Readiness Board)
+A3/6 - Sustainment and Support Board (SSB)
+A4 - Modernization and Recapitalization (MRB)
+A5/8 - Innovation, Partnership, and Engagement Board (IPEB)
+A9 - Financial Management Board (FMB)
+Special Staff - Striker Action Board (SAB)
+
+bored as Josh
+
+bridgette used to say oh my gosh
+sav on anna nicole and no makeup
+austin used to sday poon tang about his girlfriend.
+Austin said that I was lucky to have a dad like that.
+Raymond and lesby on the texas chaiunsaw massacre guy.
+p free to lane.
+wouldn't surprise me if he worked for NASA said Anupa.
+My favorite class this semester I said to Lloyd.
+offline all day I said.
+not that funny said mom. iso layout really sucks. fort and whatever she said.
+the dod and video games no more for the record.
+mom gasped about the girl at bam.
+depends shaw said, you need to get to class said Holly to me one day.
+calvin seemed so happy about C
+painfully he said
+austin and my impression of fredy mcucklevein to him.
+
+Dad and calling austin that "lil' bastard" after hearing me whisper to mom that I knew he smoked. "I got news for that lil' bastard. He ain't coming over here to smoke."
+Mom said, "You just don't want Josh to have any friends. It could be a preacher's son and he would still be a sorry little bastard."
+Mom and Peggy thought "That boy overheard us!" when I told them what Austin was saying.
+Austin and my impression of Freddie Muckelveine.
+Austin and "my scars"
+"Not this adult." said dad about South Park and cartoons for adults.
+Austin and Big Moither truckers. He said you get out at the end and pay a prostitute.
+A lot taller said Jarred.
+all the oirbs and gems in avalart.
+well hello there.
+mom on looking like a pig eating too mucxh at jessica's and Houston's that one tiume on a Sunday.
+you two lovebirds kiss and makeup joke that ainslee said when me and jarred got over a fight. I used to say that to her and Jarred when they would fight.
+Womach and the pee-ople thing. Mom said she was doing it so that we would understand.
+look at the dog Josh said dad.
+chris duvall and the television thing. we also talked about that smash brothers commercial about the stupid song from the seventies and then they fought.
+looking good mom said 
+you can you shall they said. but how they said.
+damn potholes made Calvin laugh.
+Austin and stewie is the bomb.
+the one guy in little rock who owned the store said and i'm paying for that.
+I overheard Dyustin talking about ricky bobby and having two first names. he was talking about Ricky 
+zachary.
+it goes down quicker said austin.
+Calvin and I smiled at film's extra.
+Calvin slapped me when I was shouting no to a video game, spyro 2 ripto's rage and the crystal challenge.
+And now it bleeds I said to mom. She said yeah it will do that.
+soda better in canada said hannah at sau.
+not big enough said dad.
+Mom told Linnie Dale about Francis my baby she said.
+God loves you Calvin I know that's what I am trying to sound like.
+See you around the baryard Calvin said mocking the tv show with the pig I said yeah. likie jarrad did.
+The pop star was Michael Jackson said jarred
+Alek and "time is on my side song"
+Sammy trying to get me to cuss in the fourth grade.
+Austin and mom on the cigarettes!
+Missing a molar they said at the orthodontics office.
+I think when Kirste4n asked about ya' he said you were doing good. Thta made merealize that Kirsten liked me maybe.
+The dates in the builds right now, 2/7/2022 8:42 AM -> 8/3/2022 9:42 AM
+Brandon on Dr. parkl looking up and going hey
+Park said hey to me one time coming in through the door one rainy day. dr. park was smiling, I asked him if he was doing alright and he said yeah. I was surprised to see that.
+he tried to hang me in space above and beyond.
+Get with the program said dad.
+Keg party Allan and how his step daughter called him, "da-daw." he said.
+Skin as white as mine said damien Echols.
+Mom on Joaquin Pheonix as the Joker.
+Joker looked hot said Calvin.
+Calvin said to Sav about Heath being kinda' cute.
+Kurt and kind of an oki guy.
+I'm a prostitute said Rodriguez.
+A movie for me and your daddy, no country for old men said Buddy.
+Buddy said, "Eh." and waved it off when mom said we went and saw Transformers.
+Me and Jarred said we liked golf more. at the doom buggy place.
+Calvin said he was a millionare when he died.
+When I first found out from mom never to pick up a hitch hiker.
+I remember the Maury show with the little boy who lacvked the oils to hold skin together.
+The higher you set him up the harder he's going to fall.
+I don't give a shit said Calvi8n.Aw, hell yeah he said about the weight bench.
+Brandon Hanson just shook his head at my PowerPoint for my Sprint Retrospective board that was Christmas themed.
+tall and slim like you said Eddie.
+urology they said.
+everyday said Jonathan about Christmas.
+the hills have eyes, ancient thing they said.
+what's wioth kids today, huh?
+Freddy's dead they said.
+Neil Greensides said he messed with his grandson by gettin in his face.
+Sav and the picture of the western at her trailer house.
+Jonathan said he was going hom eand puke.
+don't do that said dad.
+what are you doing Buddy said to Tippy.
+long said dad.
+Hey to Brian Gwin.
+What here would  be talking about to Bachri.
+Dr. Franks and leaning on your face in class makes the acne worse.
+Oma and acne medicine.
+Dad said stake in your ass he said.,
+before you wake up she said.
+resistance.
+Calvin on Sadie's pictures.
+you favor him Oma said I don't
+like you were really suiffering said David Wynne.
+Unicomp.
+what's with the smirk.
+The bunny go he said.
+15 minutes to live they said.
+fear mongering they said.
+no death.
+he smiled when i said not really.
+no gluttony.
+To see.
+Kitty meowoed in the dark. Jarred said impress bleifus I was trying to do.
+If yo thought the birth was silent, you should have heard the conception.
+Carl said I looked real depressed all of a sudden.
+You don't knoiw shit she said.
+your health said Scott.
+All of the same.
+Def Leopard sucks he said.
+Do not tell Joe that I found his parents.

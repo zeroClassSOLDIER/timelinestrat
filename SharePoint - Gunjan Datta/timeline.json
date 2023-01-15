@@ -1,0 +1,23 @@
+{
+    "captionField": "Directorate",
+    "endField": "DueDate",
+    "groupField": "ObjectiveLU.LineOfEffortLU",
+    "imgUrl": "images/afgsc.png",
+    "priorityField": "Priority",
+    "startField": "StartDate",
+    "title": "AF Global Strike Command",
+    "titleField": "ObjectiveLU.Title",
+    "template": "<h5>[[Title]] - [[Board]]</h5><h5>[[Status]]</h5><h5>[[Priority]]</h5>[[Body]]<br/>[[ViewButton]][[EditButton]][[CommentButton]]",
+    "color": {
+        "default": "#40587c",
+        "(1) High": "#a4262c",
+        "(2) Normal": "#ca5010",
+        "(3) Low": "#407855"
+    },
+    "thumbnail": {
+        "default": "images/af-logo.png",
+        "(1) High": "images/af-logo-red.png",
+        "(2) Normal": "images/af-logo-yellow.png",
+        "(3) Low": "images/af-logo-green.png"
+    }
+}

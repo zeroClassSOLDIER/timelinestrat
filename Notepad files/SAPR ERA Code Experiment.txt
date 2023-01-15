@@ -1,0 +1,68 @@
+// if (DataSource.Users[i].UserNames.Title === ContextInfo.userDisplayName) {
+            //     enteredDoD = true;
+            //     console.log("Name in array: " + DataSource.Users[i].Title);
+            // }
+
+
+
+
+
+  private DoDModal(el) {
+
+    // let users: IUserItem;
+    console.log("Hello, " + ContextInfo.userDisplayName);
+    let users; 
+    let hasDOD = false;
+    for (let i = 0; i < DataSource.Users.length; i++) {
+      if (DataSource.Users[i].UserNames.Title === ContextInfo.userDisplayName) {
+        hasDOD = true;
+      }
+    }
+    console.log("Users: " + users);
+
+    if (!hasDOD) {
+      // Set the list name to Users
+      ItemForm.ListName = Strings.Lists.Users;
+
+      // Create the form
+      ItemForm.create({
+        onFormButtonsRendering: button => {
+          // Render the close button
+          button.push({
+            el: el,
+            text: "Cancel",
+            type: Components.ButtonTypes.OutlineDanger,
+            onClick: (button) => {
+              ItemForm.close();
+            }
+          });
+          return button;
+        }
+      });
+    } else {
+      window.alert("Enter DoD ID Number before registeration!!!");
+    }
+  }
+
+if (this._isAdmin) {
+                // Render the admin menu
+                admin.renderEventMenu(el, item, () => { this.refresh(); });
+              } else {
+                // Render the user menu
+                // member.renderEventMenu(el, item);
+                Components.Tooltip({
+                  el: el,
+                  content: " DoD #",
+                  placement: Components.TooltipPlacements.Top,
+                  btnProps: {
+                    iconType: badge4k,
+                    iconSize: 24,
+                    type: Components.ButtonTypes.Primary,
+                    onClick: (button) => {
+                      this.DoDModal(el);
+                    }
+                  }
+                });
+
+                // return;
+              }

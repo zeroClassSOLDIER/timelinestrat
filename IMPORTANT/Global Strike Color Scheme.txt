@@ -1,0 +1,7 @@
+Global Strike Blue RGB: rgb(44,52,130)
+Global Strike Yellow RGB: rgb(252,204,5)
+Global Strike Red RGB: rgb(230,26,47)
+
+Global Strike Blue Hex: #2C3482
+Global Strike Yellow Hex: #FCD207
+Global Strike Red Hex: #E61A2F

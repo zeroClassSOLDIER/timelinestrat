@@ -1,0 +1,6 @@
+Need to add a feature so that an end date is before a start sate, SET rejects it.
+
+The "Create" tasks form should have objective entry removed since we are already in the objective space. Letting them assign objectives to milestones/tasks in another objectives workspace could get convuluted and confusing for an AO.
+
+Option to type in numeric value into assessment bar.
+

@@ -1,0 +1,74 @@
+
+    private validateByTime(results, field) {
+        // Set results
+        let resultDate = results.value;
+        let customMessage = "";
+
+        // Set custom part of message
+        if (field == "ReUpDatePreference") {
+            customMessage = "Re-update-preference-date";
+        } else {
+            customMessage = "Date-of-Separation";
+        }
+
+        // Determine if date is less than 48 hours from today's date
+        let currDate = moment();
+        let begDate = moment(resultDate);
+        let resetHour = '12:00:00 am';
+        let time = moment(resetHour, 'HH:mm:ss a');
+        let currReset = currDate.set({ hour: time.get('hour'), minute: time.get('minute') });
+        let begReset = begDate.set({ hour: time.get('hour'), minute: time.get('minute') });
+        let dateDiff = moment(begReset, "DD/MM/YYYY").diff(moment(currReset, "DD/MM/YYYY"), "hours");
+
+        if (dateDiff < -48) {
+            // Update the validation
+            results.isValid = false;
+            results.invalidMessage = customMessage + " cannot be less than 48 hours before";
+        }
+
+        // Return the results
+        return results;
+    }
+
+    private validateIfBefore(results, field) {
+        // Set the results
+        let resultsDate = results.value;
+        let customMessage = "";
+
+        // Set custom part of message
+        if (field == "RNLTD") {
+            customMessage = "RNLTD";
+        } else {
+            customMessage = "Article-137-date";
+        }
+
+        // See if the date is before today's date
+        if (moment().isAfter(moment(resultsDate))) {
+            // Update the validation
+            results.isValid = false;
+            results.invalidMessage = customMessage + " cannot be before today";
+        }
+
+        // Return the results
+        return results;
+    }
+
+
+
+           // Add time validation
+                ctrl.onValidate = (results) => {
+                    this.validateByTime(results, field.InternalName);
+                }
+
+
+
+// Add time validation
+                ctrl.onValidate = (results) => {
+                    this.validateByTime(results, field.InternalName);
+                }
+
+
+// Add time validation
+                ctrl.onValidate = (results) => {
+                    this.validateByTime(results, field.InternalName);
+                }

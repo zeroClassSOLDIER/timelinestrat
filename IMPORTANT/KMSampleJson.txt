@@ -1,0 +1,3332 @@
+{
+  "aircrewdetailed": [
+    {
+      "FullDateAlternateKey": "2020-01-05",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.061728395061728
+    },
+    {
+      "FullDateAlternateKey": "2020-01-05",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.106666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-01-05",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.083333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-01-05",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-01-05",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-01-05",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.049180327868853
+    },
+    {
+      "FullDateAlternateKey": "2020-01-05",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.9807692307692307,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.098765432098765
+    },
+    {
+      "FullDateAlternateKey": "2020-01-05",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9902912621359223,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.077464788732394
+    },
+    {
+      "FullDateAlternateKey": "2020-01-12",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.024691358024692
+    },
+    {
+      "FullDateAlternateKey": "2020-01-12",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.038961038961039
+    },
+    {
+      "FullDateAlternateKey": "2020-01-12",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.020408163265306,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.031645569620253
+    },
+    {
+      "FullDateAlternateKey": "2020-01-12",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1.089285714285714
+    },
+    {
+      "FullDateAlternateKey": "2020-01-12",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1.089285714285714
+    },
+    {
+      "FullDateAlternateKey": "2020-01-12",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 1.14,
+      "CrewRatio": 1.032258064516129
+    },
+    {
+      "FullDateAlternateKey": "2020-01-12",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.03921568627451,
+      "CombatSystemsOfficerManning": 1.1,
+      "CrewRatio": 1.1125
+    },
+    {
+      "FullDateAlternateKey": "2020-01-12",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.04950495049505,
+      "CombatSystemsOfficerManning": 1.12,
+      "CrewRatio": 1.077464788732394
+    },
+    {
+      "FullDateAlternateKey": "2020-01-19",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.077922077922078
+    },
+    {
+      "FullDateAlternateKey": "2020-01-19",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.095890410958904
+    },
+    {
+      "FullDateAlternateKey": "2020-01-19",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.086666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-01-19",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.107142857142857
+    },
+    {
+      "FullDateAlternateKey": "2020-01-19",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.107142857142857
+    },
+    {
+      "FullDateAlternateKey": "2020-01-19",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.030769230769231
+    },
+    {
+      "FullDateAlternateKey": "2020-01-19",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.034883720930233
+    },
+    {
+      "FullDateAlternateKey": "2020-01-19",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.033112582781457
+    },
+    {
+      "FullDateAlternateKey": "2020-01-26",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.116883116883117
+    },
+    {
+      "FullDateAlternateKey": "2020-01-26",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.095890410958904
+    },
+    {
+      "FullDateAlternateKey": "2020-01-26",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.106666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-01-26",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-01-26",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-01-26",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.015873015873016
+    },
+    {
+      "FullDateAlternateKey": "2020-01-26",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.069767441860465
+    },
+    {
+      "FullDateAlternateKey": "2020-01-26",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.046979865771812
+    },
+    {
+      "FullDateAlternateKey": "2020-02-02",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.023809523809524
+    },
+    {
+      "FullDateAlternateKey": "2020-02-02",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.064102564102564
+    },
+    {
+      "FullDateAlternateKey": "2020-02-02",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.04320987654321
+    },
+    {
+      "FullDateAlternateKey": "2020-02-02",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-02-02",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-02-02",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.12280701754386
+    },
+    {
+      "FullDateAlternateKey": "2020-02-02",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.011111111111111
+    },
+    {
+      "FullDateAlternateKey": "2020-02-02",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9900990099009901,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.054421768707483
+    },
+    {
+      "FullDateAlternateKey": "2020-02-09",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.077922077922078
+    },
+    {
+      "FullDateAlternateKey": "2020-02-09",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.111111111111111
+    },
+    {
+      "FullDateAlternateKey": "2020-02-09",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.093959731543624
+    },
+    {
+      "FullDateAlternateKey": "2020-02-09",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-02-09",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-02-09",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.9807692307692307,
+      "CombatSystemsOfficerManning": 0.9423076923076923,
+      "CrewRatio": 1.063492063492064
+    },
+    {
+      "FullDateAlternateKey": "2020-02-09",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.060240963855422
+    },
+    {
+      "FullDateAlternateKey": "2020-02-09",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.9514563106796117,
+      "CrewRatio": 1.061643835616438
+    },
+    {
+      "FullDateAlternateKey": "2020-02-16",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.092105263157895
+    },
+    {
+      "FullDateAlternateKey": "2020-02-16",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.012658227848101
+    },
+    {
+      "FullDateAlternateKey": "2020-02-16",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.051612903225806
+    },
+    {
+      "FullDateAlternateKey": "2020-02-16",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.160714285714286
+    },
+    {
+      "FullDateAlternateKey": "2020-02-16",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.160714285714286
+    },
+    {
+      "FullDateAlternateKey": "2020-02-16",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1.015873015873016
+    },
+    {
+      "FullDateAlternateKey": "2020-02-16",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.057471264367816
+    },
+    {
+      "FullDateAlternateKey": "2020-02-16",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.050505050505051,
+      "CrewRatio": 1.04
+    },
+    {
+      "FullDateAlternateKey": "2020-02-23",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.050632911392405
+    },
+    {
+      "FullDateAlternateKey": "2020-02-23",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.128571428571429
+    },
+    {
+      "FullDateAlternateKey": "2020-02-23",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 0.9900990099009901,
+      "CrewRatio": 1.087248322147651
+    },
+    {
+      "FullDateAlternateKey": "2020-02-23",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-02-23",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-02-23",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.03921568627451,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.049180327868853
+    },
+    {
+      "FullDateAlternateKey": "2020-02-23",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.082352941176471
+    },
+    {
+      "FullDateAlternateKey": "2020-02-23",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.019607843137255,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.068493150684932
+    },
+    {
+      "FullDateAlternateKey": "2020-03-01",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.136986301369863
+    },
+    {
+      "FullDateAlternateKey": "2020-03-01",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.123287671232877
+    },
+    {
+      "FullDateAlternateKey": "2020-03-01",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.03030303030303,
+      "CrewRatio": 1.13013698630137
+    },
+    {
+      "FullDateAlternateKey": "2020-03-01",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1.065573770491803
+    },
+    {
+      "FullDateAlternateKey": "2020-03-01",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1.065573770491803
+    },
+    {
+      "FullDateAlternateKey": "2020-03-01",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.117647058823529,
+      "CrewRatio": 1.015873015873016
+    },
+    {
+      "FullDateAlternateKey": "2020-03-01",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.07843137254902,
+      "CrewRatio": 1.05952380952381
+    },
+    {
+      "FullDateAlternateKey": "2020-03-01",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9900990099009901,
+      "CombatSystemsOfficerManning": 1.098039215686275,
+      "CrewRatio": 1.040816326530612
+    },
+    {
+      "FullDateAlternateKey": "2020-03-08",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.0375
+    },
+    {
+      "FullDateAlternateKey": "2020-03-08",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.012345679012346
+    },
+    {
+      "FullDateAlternateKey": "2020-03-08",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.020408163265306,
+      "CrewRatio": 1.024844720496895
+    },
+    {
+      "FullDateAlternateKey": "2020-03-08",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-03-08",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-03-08",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.163636363636364
+    },
+    {
+      "FullDateAlternateKey": "2020-03-08",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.047619047619048
+    },
+    {
+      "FullDateAlternateKey": "2020-03-08",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.093525179856115
+    },
+    {
+      "FullDateAlternateKey": "2020-03-15",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1.049382716049383
+    },
+    {
+      "FullDateAlternateKey": "2020-03-15",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.025641025641026
+    },
+    {
+      "FullDateAlternateKey": "2020-03-15",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.03030303030303,
+      "CombatSystemsOfficerManning": 1.04,
+      "CrewRatio": 1.037735849056604
+    },
+    {
+      "FullDateAlternateKey": "2020-03-15",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.1,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-03-15",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.1,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-03-15",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.117647058823529,
+      "CrewRatio": 1.080645161290323
+    },
+    {
+      "FullDateAlternateKey": "2020-03-15",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.14,
+      "CrewRatio": 1.047058823529412
+    },
+    {
+      "FullDateAlternateKey": "2020-03-15",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.128712871287129,
+      "CrewRatio": 1.061224489795918
+    },
+    {
+      "FullDateAlternateKey": "2020-03-22",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.103896103896104
+    },
+    {
+      "FullDateAlternateKey": "2020-03-22",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.123287671232877
+    },
+    {
+      "FullDateAlternateKey": "2020-03-22",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98989898989899,
+      "CrewRatio": 1.113333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-03-22",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.033333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-03-22",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.033333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-03-22",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 0.9807692307692307,
+      "CrewRatio": 1.084745762711864
+    },
+    {
+      "FullDateAlternateKey": "2020-03-22",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.023255813953488
+    },
+    {
+      "FullDateAlternateKey": "2020-03-22",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 0.9902912621359223,
+      "CrewRatio": 1.048275862068966
+    },
+    {
+      "FullDateAlternateKey": "2020-03-29",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.050632911392405
+    },
+    {
+      "FullDateAlternateKey": "2020-03-29",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.012820512820513
+    },
+    {
+      "FullDateAlternateKey": "2020-03-29",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.020408163265306,
+      "CombatSystemsOfficerManning": 0.98989898989899,
+      "CrewRatio": 1.031847133757962
+    },
+    {
+      "FullDateAlternateKey": "2020-03-29",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.169811320754717
+    },
+    {
+      "FullDateAlternateKey": "2020-03-29",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.169811320754717
+    },
+    {
+      "FullDateAlternateKey": "2020-03-29",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.14,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.015873015873016
+    },
+    {
+      "FullDateAlternateKey": "2020-03-29",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.07843137254902,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.098765432098765
+    },
+    {
+      "FullDateAlternateKey": "2020-03-29",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.108910891089109,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.0625
+    },
+    {
+      "FullDateAlternateKey": "2020-04-05",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.133333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-04-05",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-04-05",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.063694267515924
+    },
+    {
+      "FullDateAlternateKey": "2020-04-05",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.066666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-04-05",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.066666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-04-05",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1.066666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-04-05",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.126582278481013
+    },
+    {
+      "FullDateAlternateKey": "2020-04-05",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9702970297029703,
+      "CombatSystemsOfficerManning": 1.04,
+      "CrewRatio": 1.100719424460432
+    },
+    {
+      "FullDateAlternateKey": "2020-04-12",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.088607594936709
+    },
+    {
+      "FullDateAlternateKey": "2020-04-12",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.092105263157895
+    },
+    {
+      "FullDateAlternateKey": "2020-04-12",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.020408163265306,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.090322580645161
+    },
+    {
+      "FullDateAlternateKey": "2020-04-12",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-04-12",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-04-12",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.015873015873016
+    },
+    {
+      "FullDateAlternateKey": "2020-04-12",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.011111111111111
+    },
+    {
+      "FullDateAlternateKey": "2020-04-12",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.061224489795918,
+      "CrewRatio": 1.013071895424837
+    },
+    {
+      "FullDateAlternateKey": "2020-04-19",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.136986301369863
+    },
+    {
+      "FullDateAlternateKey": "2020-04-19",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.066666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-04-19",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.101351351351351
+    },
+    {
+      "FullDateAlternateKey": "2020-04-19",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-04-19",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-04-19",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.12280701754386
+    },
+    {
+      "FullDateAlternateKey": "2020-04-19",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.033707865168539
+    },
+    {
+      "FullDateAlternateKey": "2020-04-19",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1.020408163265306,
+      "CrewRatio": 1.068493150684932
+    },
+    {
+      "FullDateAlternateKey": "2020-04-26",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.064935064935065
+    },
+    {
+      "FullDateAlternateKey": "2020-04-26",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.111111111111111
+    },
+    {
+      "FullDateAlternateKey": "2020-04-26",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.9900990099009901,
+      "CrewRatio": 1.087248322147651
+    },
+    {
+      "FullDateAlternateKey": "2020-04-26",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.032258064516129
+    },
+    {
+      "FullDateAlternateKey": "2020-04-26",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.032258064516129
+    },
+    {
+      "FullDateAlternateKey": "2020-04-26",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.9423076923076923,
+      "CombatSystemsOfficerManning": 0.9807692307692307,
+      "CrewRatio": 1.016129032258065
+    },
+    {
+      "FullDateAlternateKey": "2020-04-26",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 0.9807692307692307,
+      "CrewRatio": 1.035294117647059
+    },
+    {
+      "FullDateAlternateKey": "2020-04-26",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9514563106796117,
+      "CombatSystemsOfficerManning": 0.9807692307692307,
+      "CrewRatio": 1.027210884353742
+    },
+    {
+      "FullDateAlternateKey": "2020-05-03",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.012345679012346
+    },
+    {
+      "FullDateAlternateKey": "2020-05-03",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.025641025641026
+    },
+    {
+      "FullDateAlternateKey": "2020-05-03",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.018867924528302
+    },
+    {
+      "FullDateAlternateKey": "2020-05-03",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.016666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-05-03",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.016666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-05-03",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.1,
+      "CrewRatio": 1.049180327868853
+    },
+    {
+      "FullDateAlternateKey": "2020-05-03",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-05-03",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.08,
+      "CrewRatio": 1.019607843137255
+    },
+    {
+      "FullDateAlternateKey": "2020-05-10",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.024691358024692
+    },
+    {
+      "FullDateAlternateKey": "2020-05-10",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.052631578947368
+    },
+    {
+      "FullDateAlternateKey": "2020-05-10",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9702970297029703,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.038216560509554
+    },
+    {
+      "FullDateAlternateKey": "2020-05-10",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.089285714285714
+    },
+    {
+      "FullDateAlternateKey": "2020-05-10",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.089285714285714
+    },
+    {
+      "FullDateAlternateKey": "2020-05-10",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.1,
+      "CombatSystemsOfficerManning": 1.03921568627451,
+      "CrewRatio": 1.163636363636364
+    },
+    {
+      "FullDateAlternateKey": "2020-05-10",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1.05952380952381
+    },
+    {
+      "FullDateAlternateKey": "2020-05-10",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.08,
+      "CombatSystemsOfficerManning": 1.04950495049505,
+      "CrewRatio": 1.100719424460432
+    },
+    {
+      "FullDateAlternateKey": "2020-05-17",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.024691358024692
+    },
+    {
+      "FullDateAlternateKey": "2020-05-17",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.037974683544304
+    },
+    {
+      "FullDateAlternateKey": "2020-05-17",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.03125
+    },
+    {
+      "FullDateAlternateKey": "2020-05-17",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-05-17",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-05-17",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.066666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-05-17",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.098765432098765
+    },
+    {
+      "FullDateAlternateKey": "2020-05-17",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.03030303030303,
+      "CombatSystemsOfficerManning": 1.03030303030303,
+      "CrewRatio": 1.085106382978723
+    },
+    {
+      "FullDateAlternateKey": "2020-05-24",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.121621621621622
+    },
+    {
+      "FullDateAlternateKey": "2020-05-24",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.025641025641026
+    },
+    {
+      "FullDateAlternateKey": "2020-05-24",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.020408163265306,
+      "CrewRatio": 1.072368421052632
+    },
+    {
+      "FullDateAlternateKey": "2020-05-24",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.148148148148148
+    },
+    {
+      "FullDateAlternateKey": "2020-05-24",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.148148148148148
+    },
+    {
+      "FullDateAlternateKey": "2020-05-24",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.116666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-05-24",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.1
+    },
+    {
+      "FullDateAlternateKey": "2020-05-24",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.107142857142857
+    },
+    {
+      "FullDateAlternateKey": "2020-05-31",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.064102564102564
+    },
+    {
+      "FullDateAlternateKey": "2020-05-31",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.025641025641026
+    },
+    {
+      "FullDateAlternateKey": "2020-05-31",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.00990099009901,
+      "CrewRatio": 1.044871794871795
+    },
+    {
+      "FullDateAlternateKey": "2020-05-31",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.9423076923076923,
+      "CombatSystemsOfficerManning": 1.03921568627451,
+      "CrewRatio": 1.033333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-05-31",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9423076923076923,
+      "CombatSystemsOfficerManning": 1.03921568627451,
+      "CrewRatio": 1.033333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-05-31",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.9423076923076923,
+      "CombatSystemsOfficerManning": 1.057692307692308,
+      "CrewRatio": 1.142857142857143
+    },
+    {
+      "FullDateAlternateKey": "2020-05-31",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1.057692307692308,
+      "CrewRatio": 1.1125
+    },
+    {
+      "FullDateAlternateKey": "2020-05-31",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9514563106796117,
+      "CombatSystemsOfficerManning": 1.057692307692308,
+      "CrewRatio": 1.125
+    },
+    {
+      "FullDateAlternateKey": "2020-06-07",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.121621621621622
+    },
+    {
+      "FullDateAlternateKey": "2020-06-07",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.092105263157895
+    },
+    {
+      "FullDateAlternateKey": "2020-06-07",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.106666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-06-07",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.107142857142857
+    },
+    {
+      "FullDateAlternateKey": "2020-06-07",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.107142857142857
+    },
+    {
+      "FullDateAlternateKey": "2020-06-07",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.049180327868853
+    },
+    {
+      "FullDateAlternateKey": "2020-06-07",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.096385542168675
+    },
+    {
+      "FullDateAlternateKey": "2020-06-07",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.020408163265306,
+      "CrewRatio": 1.076388888888889
+    },
+    {
+      "FullDateAlternateKey": "2020-06-14",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.036585365853659
+    },
+    {
+      "FullDateAlternateKey": "2020-06-14",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.038961038961039
+    },
+    {
+      "FullDateAlternateKey": "2020-06-14",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98989898989899,
+      "CrewRatio": 1.037735849056604
+    },
+    {
+      "FullDateAlternateKey": "2020-06-14",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.033333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-06-14",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.033333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-06-14",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.032258064516129
+    },
+    {
+      "FullDateAlternateKey": "2020-06-14",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.098765432098765
+    },
+    {
+      "FullDateAlternateKey": "2020-06-14",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.9702970297029703,
+      "CrewRatio": 1.06993006993007
+    },
+    {
+      "FullDateAlternateKey": "2020-06-21",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.0375
+    },
+    {
+      "FullDateAlternateKey": "2020-06-21",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.052631578947368
+    },
+    {
+      "FullDateAlternateKey": "2020-06-21",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.020408163265306,
+      "CombatSystemsOfficerManning": 0.98989898989899,
+      "CrewRatio": 1.044871794871795
+    },
+    {
+      "FullDateAlternateKey": "2020-06-21",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.033333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-06-21",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.033333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-06-21",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.015873015873016
+    },
+    {
+      "FullDateAlternateKey": "2020-06-21",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.072289156626506
+    },
+    {
+      "FullDateAlternateKey": "2020-06-21",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.00990099009901,
+      "CombatSystemsOfficerManning": 0.9803921568627451,
+      "CrewRatio": 1.047945205479452
+    },
+    {
+      "FullDateAlternateKey": "2020-06-28",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.138888888888889
+    },
+    {
+      "FullDateAlternateKey": "2020-06-28",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.012658227848101
+    },
+    {
+      "FullDateAlternateKey": "2020-06-28",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.072847682119205
+    },
+    {
+      "FullDateAlternateKey": "2020-06-28",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.148148148148148
+    },
+    {
+      "FullDateAlternateKey": "2020-06-28",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.148148148148148
+    },
+    {
+      "FullDateAlternateKey": "2020-06-28",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1.03921568627451,
+      "CrewRatio": 1.016129032258065
+    },
+    {
+      "FullDateAlternateKey": "2020-06-28",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.047058823529412
+    },
+    {
+      "FullDateAlternateKey": "2020-06-28",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9702970297029703,
+      "CombatSystemsOfficerManning": 1.019607843137255,
+      "CrewRatio": 1.034013605442177
+    },
+    {
+      "FullDateAlternateKey": "2020-07-05",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.050632911392405
+    },
+    {
+      "FullDateAlternateKey": "2020-07-05",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.081081081081081
+    },
+    {
+      "FullDateAlternateKey": "2020-07-05",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 0.98989898989899,
+      "CrewRatio": 1.065359477124183
+    },
+    {
+      "FullDateAlternateKey": "2020-07-05",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-07-05",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-07-05",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.163636363636364
+    },
+    {
+      "FullDateAlternateKey": "2020-07-05",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.022988505747126
+    },
+    {
+      "FullDateAlternateKey": "2020-07-05",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.077464788732394
+    },
+    {
+      "FullDateAlternateKey": "2020-07-12",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.118421052631579
+    },
+    {
+      "FullDateAlternateKey": "2020-07-12",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.025641025641026
+    },
+    {
+      "FullDateAlternateKey": "2020-07-12",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.071428571428571
+    },
+    {
+      "FullDateAlternateKey": "2020-07-12",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.033333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-07-12",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.033333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-07-12",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.137931034482759
+    },
+    {
+      "FullDateAlternateKey": "2020-07-12",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.072289156626506
+    },
+    {
+      "FullDateAlternateKey": "2020-07-12",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.099290780141844
+    },
+    {
+      "FullDateAlternateKey": "2020-07-19",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.012345679012346
+    },
+    {
+      "FullDateAlternateKey": "2020-07-19",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.142857142857143
+    },
+    {
+      "FullDateAlternateKey": "2020-07-19",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.072847682119205
+    },
+    {
+      "FullDateAlternateKey": "2020-07-19",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.192307692307692
+    },
+    {
+      "FullDateAlternateKey": "2020-07-19",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.192307692307692
+    },
+    {
+      "FullDateAlternateKey": "2020-07-19",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.137931034482759
+    },
+    {
+      "FullDateAlternateKey": "2020-07-19",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.095238095238095
+    },
+    {
+      "FullDateAlternateKey": "2020-07-19",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.112676056338028
+    },
+    {
+      "FullDateAlternateKey": "2020-07-26",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.050632911392405
+    },
+    {
+      "FullDateAlternateKey": "2020-07-26",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.025
+    },
+    {
+      "FullDateAlternateKey": "2020-07-26",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.037735849056604
+    },
+    {
+      "FullDateAlternateKey": "2020-07-26",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.12962962962963
+    },
+    {
+      "FullDateAlternateKey": "2020-07-26",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.12962962962963
+    },
+    {
+      "FullDateAlternateKey": "2020-07-26",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.066666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-07-26",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.02247191011236
+    },
+    {
+      "FullDateAlternateKey": "2020-07-26",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.03030303030303,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.040268456375839
+    },
+    {
+      "FullDateAlternateKey": "2020-08-02",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.106666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-08-02",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.025641025641026
+    },
+    {
+      "FullDateAlternateKey": "2020-08-02",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.03030303030303,
+      "CombatSystemsOfficerManning": 1.01010101010101,
+      "CrewRatio": 1.065359477124183
+    },
+    {
+      "FullDateAlternateKey": "2020-08-02",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.109090909090909
+    },
+    {
+      "FullDateAlternateKey": "2020-08-02",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.109090909090909
+    },
+    {
+      "FullDateAlternateKey": "2020-08-02",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.185185185185185
+    },
+    {
+      "FullDateAlternateKey": "2020-08-02",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.022988505747126
+    },
+    {
+      "FullDateAlternateKey": "2020-08-02",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.00990099009901,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.085106382978723
+    },
+    {
+      "FullDateAlternateKey": "2020-08-09",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.077922077922078
+    },
+    {
+      "FullDateAlternateKey": "2020-08-09",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.111111111111111
+    },
+    {
+      "FullDateAlternateKey": "2020-08-09",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.093959731543624
+    },
+    {
+      "FullDateAlternateKey": "2020-08-09",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-08-09",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-08-09",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.12280701754386
+    },
+    {
+      "FullDateAlternateKey": "2020-08-09",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.126582278481013
+    },
+    {
+      "FullDateAlternateKey": "2020-08-09",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9702970297029703,
+      "CombatSystemsOfficerManning": 1.00990099009901,
+      "CrewRatio": 1.125
+    },
+    {
+      "FullDateAlternateKey": "2020-08-16",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.064102564102564
+    },
+    {
+      "FullDateAlternateKey": "2020-08-16",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.038961038961039
+    },
+    {
+      "FullDateAlternateKey": "2020-08-16",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.061224489795918,
+      "CrewRatio": 1.051612903225806
+    },
+    {
+      "FullDateAlternateKey": "2020-08-16",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.169811320754717
+    },
+    {
+      "FullDateAlternateKey": "2020-08-16",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.169811320754717
+    },
+    {
+      "FullDateAlternateKey": "2020-08-16",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.122448979591837,
+      "CrewRatio": 1.163636363636364
+    },
+    {
+      "FullDateAlternateKey": "2020-08-16",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.108433734939759
+    },
+    {
+      "FullDateAlternateKey": "2020-08-16",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.102040816326531,
+      "CrewRatio": 1.130434782608696
+    },
+    {
+      "FullDateAlternateKey": "2020-08-23",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.118421052631579
+    },
+    {
+      "FullDateAlternateKey": "2020-08-23",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.081081081081081
+    },
+    {
+      "FullDateAlternateKey": "2020-08-23",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 0.98989898989899,
+      "CrewRatio": 1.1
+    },
+    {
+      "FullDateAlternateKey": "2020-08-23",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.084745762711864
+    },
+    {
+      "FullDateAlternateKey": "2020-08-23",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.084745762711864
+    },
+    {
+      "FullDateAlternateKey": "2020-08-23",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.142857142857143
+    },
+    {
+      "FullDateAlternateKey": "2020-08-23",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.098765432098765
+    },
+    {
+      "FullDateAlternateKey": "2020-08-23",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.04,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.116788321167883
+    },
+    {
+      "FullDateAlternateKey": "2020-08-30",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.088607594936709
+    },
+    {
+      "FullDateAlternateKey": "2020-08-30",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.106666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-08-30",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98989898989899,
+      "CrewRatio": 1.097402597402597
+    },
+    {
+      "FullDateAlternateKey": "2020-08-30",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-08-30",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-08-30",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.05
+    },
+    {
+      "FullDateAlternateKey": "2020-08-30",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.060240963855422
+    },
+    {
+      "FullDateAlternateKey": "2020-08-30",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9702970297029703,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.055944055944056
+    },
+    {
+      "FullDateAlternateKey": "2020-09-06",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.025
+    },
+    {
+      "FullDateAlternateKey": "2020-09-06",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.038961038961039
+    },
+    {
+      "FullDateAlternateKey": "2020-09-06",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.01010101010101,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.031847133757962
+    },
+    {
+      "FullDateAlternateKey": "2020-09-06",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-09-06",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-09-06",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.1,
+      "CombatSystemsOfficerManning": 1.07843137254902,
+      "CrewRatio": 1.142857142857143
+    },
+    {
+      "FullDateAlternateKey": "2020-09-06",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1.045977011494253
+    },
+    {
+      "FullDateAlternateKey": "2020-09-06",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.08,
+      "CombatSystemsOfficerManning": 1.069306930693069,
+      "CrewRatio": 1.083916083916084
+    },
+    {
+      "FullDateAlternateKey": "2020-09-13",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.011764705882353
+    },
+    {
+      "FullDateAlternateKey": "2020-09-13",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.025641025641026
+    },
+    {
+      "FullDateAlternateKey": "2020-09-13",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.01840490797546
+    },
+    {
+      "FullDateAlternateKey": "2020-09-13",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-09-13",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-09-13",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.084745762711864
+    },
+    {
+      "FullDateAlternateKey": "2020-09-13",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.098765432098765
+    },
+    {
+      "FullDateAlternateKey": "2020-09-13",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.092857142857143
+    },
+    {
+      "FullDateAlternateKey": "2020-09-20",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.011764705882353
+    },
+    {
+      "FullDateAlternateKey": "2020-09-20",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.142857142857143
+    },
+    {
+      "FullDateAlternateKey": "2020-09-20",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.061224489795918,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.070967741935484
+    },
+    {
+      "FullDateAlternateKey": "2020-09-20",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-09-20",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-09-20",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.142857142857143
+    },
+    {
+      "FullDateAlternateKey": "2020-09-20",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.047058823529412
+    },
+    {
+      "FullDateAlternateKey": "2020-09-20",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.061224489795918,
+      "CrewRatio": 1.085106382978723
+    },
+    {
+      "FullDateAlternateKey": "2020-09-27",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.116883116883117
+    },
+    {
+      "FullDateAlternateKey": "2020-09-27",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.025641025641026
+    },
+    {
+      "FullDateAlternateKey": "2020-09-27",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.061224489795918,
+      "CombatSystemsOfficerManning": 1.061224489795918,
+      "CrewRatio": 1.070967741935484
+    },
+    {
+      "FullDateAlternateKey": "2020-09-27",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-09-27",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-09-27",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.03921568627451,
+      "CombatSystemsOfficerManning": 1.1,
+      "CrewRatio": 1.084745762711864
+    },
+    {
+      "FullDateAlternateKey": "2020-09-27",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.081632653061225,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1.047619047619048
+    },
+    {
+      "FullDateAlternateKey": "2020-09-27",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 1.08,
+      "CrewRatio": 1.062937062937063
+    },
+    {
+      "FullDateAlternateKey": "2020-10-04",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.092105263157895
+    },
+    {
+      "FullDateAlternateKey": "2020-10-04",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.025641025641026
+    },
+    {
+      "FullDateAlternateKey": "2020-10-04",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.058441558441559
+    },
+    {
+      "FullDateAlternateKey": "2020-10-04",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-10-04",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-10-04",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-10-04",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.072289156626506
+    },
+    {
+      "FullDateAlternateKey": "2020-10-04",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.04
+    },
+    {
+      "FullDateAlternateKey": "2020-10-11",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.024691358024692
+    },
+    {
+      "FullDateAlternateKey": "2020-10-11",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-10-11",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.020408163265306,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.012422360248447
+    },
+    {
+      "FullDateAlternateKey": "2020-10-11",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-10-11",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.087719298245614
+    },
+    {
+      "FullDateAlternateKey": "2020-10-11",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.086206896551724
+    },
+    {
+      "FullDateAlternateKey": "2020-10-11",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.085365853658537
+    },
+    {
+      "FullDateAlternateKey": "2020-10-11",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.03030303030303,
+      "CombatSystemsOfficerManning": 1.020408163265306,
+      "CrewRatio": 1.085714285714286
+    },
+    {
+      "FullDateAlternateKey": "2020-10-18",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.116883116883117
+    },
+    {
+      "FullDateAlternateKey": "2020-10-18",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.024691358024692
+    },
+    {
+      "FullDateAlternateKey": "2020-10-18",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.01010101010101,
+      "CrewRatio": 1.069620253164557
+    },
+    {
+      "FullDateAlternateKey": "2020-10-18",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.015625
+    },
+    {
+      "FullDateAlternateKey": "2020-10-18",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.015625
+    },
+    {
+      "FullDateAlternateKey": "2020-10-18",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.07843137254902,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.142857142857143
+    },
+    {
+      "FullDateAlternateKey": "2020-10-18",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.019230769230769,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.035294117647059
+    },
+    {
+      "FullDateAlternateKey": "2020-10-18",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.048543689320388,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.078014184397163
+    },
+    {
+      "FullDateAlternateKey": "2020-10-25",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.012345679012346
+    },
+    {
+      "FullDateAlternateKey": "2020-10-25",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.111111111111111
+    },
+    {
+      "FullDateAlternateKey": "2020-10-25",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.03030303030303,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.058823529411765
+    },
+    {
+      "FullDateAlternateKey": "2020-10-25",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-10-25",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-10-25",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-10-25",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.034883720930233
+    },
+    {
+      "FullDateAlternateKey": "2020-10-25",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.9702970297029703,
+      "CrewRatio": 1.02
+    },
+    {
+      "FullDateAlternateKey": "2020-11-01",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.0375
+    },
+    {
+      "FullDateAlternateKey": "2020-11-01",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.126760563380282
+    },
+    {
+      "FullDateAlternateKey": "2020-11-01",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.03030303030303,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.079470198675497
+    },
+    {
+      "FullDateAlternateKey": "2020-11-01",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.107142857142857
+    },
+    {
+      "FullDateAlternateKey": "2020-11-01",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.107142857142857
+    },
+    {
+      "FullDateAlternateKey": "2020-11-01",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.06,
+      "CrewRatio": 1.032786885245902
+    },
+    {
+      "FullDateAlternateKey": "2020-11-01",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.047058823529412
+    },
+    {
+      "FullDateAlternateKey": "2020-11-01",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.03030303030303,
+      "CombatSystemsOfficerManning": 1.04,
+      "CrewRatio": 1.041095890410959
+    },
+    {
+      "FullDateAlternateKey": "2020-11-08",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-11-08",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.078947368421053
+    },
+    {
+      "FullDateAlternateKey": "2020-11-08",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.03030303030303,
+      "CombatSystemsOfficerManning": 1.020408163265306,
+      "CrewRatio": 1.037735849056604
+    },
+    {
+      "FullDateAlternateKey": "2020-11-08",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-11-08",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-11-08",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.1,
+      "CrewRatio": 1.163636363636364
+    },
+    {
+      "FullDateAlternateKey": "2020-11-08",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.1,
+      "CrewRatio": 1.010989010989011
+    },
+    {
+      "FullDateAlternateKey": "2020-11-08",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1.1,
+      "CrewRatio": 1.068493150684932
+    },
+    {
+      "FullDateAlternateKey": "2020-11-15",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.064102564102564
+    },
+    {
+      "FullDateAlternateKey": "2020-11-15",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.077922077922078
+    },
+    {
+      "FullDateAlternateKey": "2020-11-15",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.01010101010101,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.070967741935484
+    },
+    {
+      "FullDateAlternateKey": "2020-11-15",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.033898305084746
+    },
+    {
+      "FullDateAlternateKey": "2020-11-15",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.033898305084746
+    },
+    {
+      "FullDateAlternateKey": "2020-11-15",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.117647058823529,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.080645161290323
+    },
+    {
+      "FullDateAlternateKey": "2020-11-15",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.1,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.047058823529412
+    },
+    {
+      "FullDateAlternateKey": "2020-11-15",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.108910891089109,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.061224489795918
+    },
+    {
+      "FullDateAlternateKey": "2020-11-22",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.121621621621622
+    },
+    {
+      "FullDateAlternateKey": "2020-11-22",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.01219512195122
+    },
+    {
+      "FullDateAlternateKey": "2020-11-22",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.064102564102564
+    },
+    {
+      "FullDateAlternateKey": "2020-11-22",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.169811320754717
+    },
+    {
+      "FullDateAlternateKey": "2020-11-22",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.02,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.169811320754717
+    },
+    {
+      "FullDateAlternateKey": "2020-11-22",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.03921568627451,
+      "CombatSystemsOfficerManning": 1.019230769230769,
+      "CrewRatio": 1.05
+    },
+    {
+      "FullDateAlternateKey": "2020-11-22",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.03921568627451,
+      "CrewRatio": 1.085365853658537
+    },
+    {
+      "FullDateAlternateKey": "2020-11-22",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.019607843137255,
+      "CombatSystemsOfficerManning": 1.029126213592233,
+      "CrewRatio": 1.070422535211268
+    },
+    {
+      "FullDateAlternateKey": "2020-11-29",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.024691358024692
+    },
+    {
+      "FullDateAlternateKey": "2020-11-29",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.064102564102564
+    },
+    {
+      "FullDateAlternateKey": "2020-11-29",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1.040816326530612,
+      "CrewRatio": 1.044025157232704
+    },
+    {
+      "FullDateAlternateKey": "2020-11-29",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.083333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-11-29",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.083333333333333
+    },
+    {
+      "FullDateAlternateKey": "2020-11-29",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.049180327868853
+    },
+    {
+      "FullDateAlternateKey": "2020-11-29",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.085365853658537
+    },
+    {
+      "FullDateAlternateKey": "2020-11-29",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98989898989899,
+      "CombatSystemsOfficerManning": 1.081632653061225,
+      "CrewRatio": 1.06993006993007
+    },
+    {
+      "FullDateAlternateKey": "2020-12-06",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.024096385542169
+    },
+    {
+      "FullDateAlternateKey": "2020-12-06",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.01219512195122
+    },
+    {
+      "FullDateAlternateKey": "2020-12-06",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.020408163265306,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.018181818181818
+    },
+    {
+      "FullDateAlternateKey": "2020-12-06",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-12-06",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-12-06",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.015873015873016
+    },
+    {
+      "FullDateAlternateKey": "2020-12-06",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.022988505747126
+    },
+    {
+      "FullDateAlternateKey": "2020-12-06",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.02
+    },
+    {
+      "FullDateAlternateKey": "2020-12-13",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.08974358974359
+    },
+    {
+      "FullDateAlternateKey": "2020-12-13",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.98,
+      "CrewRatio": 1.052631578947368
+    },
+    {
+      "FullDateAlternateKey": "2020-12-13",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 0.9702970297029703,
+      "CrewRatio": 1.071428571428571
+    },
+    {
+      "FullDateAlternateKey": "2020-12-13",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-12-13",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.050847457627119
+    },
+    {
+      "FullDateAlternateKey": "2020-12-13",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.046875
+    },
+    {
+      "FullDateAlternateKey": "2020-12-13",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.9423076923076923,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.045454545454545
+    },
+    {
+      "FullDateAlternateKey": "2020-12-13",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.970873786407767,
+      "CombatSystemsOfficerManning": 0.9607843137254902,
+      "CrewRatio": 1.046052631578947
+    },
+    {
+      "FullDateAlternateKey": "2020-12-20",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.077922077922078
+    },
+    {
+      "FullDateAlternateKey": "2020-12-20",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.111111111111111
+    },
+    {
+      "FullDateAlternateKey": "2020-12-20",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1.040816326530612,
+      "CombatSystemsOfficerManning": 1.01010101010101,
+      "CrewRatio": 1.093959731543624
+    },
+    {
+      "FullDateAlternateKey": "2020-12-20",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 1.03921568627451,
+      "CrewRatio": 1.140350877192982
+    },
+    {
+      "FullDateAlternateKey": "2020-12-20",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 1.06,
+      "CombatSystemsOfficerManning": 1.03921568627451,
+      "CrewRatio": 1.140350877192982
+    },
+    {
+      "FullDateAlternateKey": "2020-12-20",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 1.037735849056604,
+      "CombatSystemsOfficerManning": 1.019230769230769,
+      "CrewRatio": 1
+    },
+    {
+      "FullDateAlternateKey": "2020-12-20",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 1.03921568627451,
+      "CombatSystemsOfficerManning": 1.019230769230769,
+      "CrewRatio": 1.047058823529412
+    },
+    {
+      "FullDateAlternateKey": "2020-12-20",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 1.038461538461539,
+      "CombatSystemsOfficerManning": 1.019230769230769,
+      "CrewRatio": 1.026845637583893
+    },
+    {
+      "FullDateAlternateKey": "2020-12-27",
+      "MDSCode": "B001B",
+      "WingCode": "2BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.102564102564103
+    },
+    {
+      "FullDateAlternateKey": "2020-12-27",
+      "MDSCode": "B001B",
+      "WingCode": "7BMBWG",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.095890410958904
+    },
+    {
+      "FullDateAlternateKey": "2020-12-27",
+      "MDSCode": "B001B",
+      "WingCode": "All Wings",
+      "PilotManning": 1,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.099337748344371
+    },
+    {
+      "FullDateAlternateKey": "2020-12-27",
+      "MDSCode": "B002A",
+      "WingCode": "509BHVWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-12-27",
+      "MDSCode": "B002A",
+      "WingCode": "All Wings",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1.02,
+      "CrewRatio": 1.068965517241379
+    },
+    {
+      "FullDateAlternateKey": "2020-12-27",
+      "MDSCode": "B052H",
+      "WingCode": "28BMBWG",
+      "PilotManning": 0.9607843137254902,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.066666666666667
+    },
+    {
+      "FullDateAlternateKey": "2020-12-27",
+      "MDSCode": "B052H",
+      "WingCode": "5BMBWG",
+      "PilotManning": 0.98,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.1125
+    },
+    {
+      "FullDateAlternateKey": "2020-12-27",
+      "MDSCode": "B052H",
+      "WingCode": "All Wings",
+      "PilotManning": 0.9702970297029703,
+      "CombatSystemsOfficerManning": 1,
+      "CrewRatio": 1.092857142857143
+    }
+  ]
+}

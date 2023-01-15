@@ -1,0 +1,562 @@
+<!--
+Developed By: Ben Hester Contractor		Updated By: Scot Dickson Contractor
+Location: AMC Scott AFB
+Update Date: July 2020
+
+Description: A custom coded gantt chart that uses vis.js to visualize calendar data. 
+-->
+
+<!-- **************************************** Edit this section ************************************************************ -->
+  <link href="https://usaf.dps.mil/teams/317AirliftWing/SiteAssets/vis/vis-timeline-graph2d.min.css?csf=1&web=1&e=GMVyLm" rel="stylesheet" type="text/css" />
+  
+ <script type="text/javascript" src="https://usaf.dps.mil/teams/317AirliftWing/SiteAssets/jquery-1.12.1.min.js?csf=1&web=1&e=6jNERZ"></script>
+ <!-- note: moment.js must be loaded before vis.js, else vis.js uses its embedded version of moment.js -->
+ <script type="text/javascript" src="https://usaf.dps.mil/teams/317AirliftWing/SiteAssets/vis/moment.min.js?csf=1&web=1&e=qbgleg"></script>
+ <script type="text/javascript" src="https://usaf.dps.mil/teams/317AirliftWing/SiteAssets/vis/vis.min.js?csf=1&web=1&e=aJcERC"></script>
+  <!-- mousetrap removes the CSS that hides most of the SharePoint menu from the screen located up top in the style-div by pressing 'ctrl + ,' -->
+ <script type="text/javascript" src="https://usaf.dps.mil/teams/317AirliftWing/SiteAssets/mousetrap.min.js?csf=1&web=1&e=BunVO9"></script>
+
+ <script type="text/javascript">
+	// Enter the name of the calendar list
+ 	var calendarListName = "Calendar Data";
+
+ 	// Enter the name of the categories list
+ 	var categoriesListName = "Calendar Categories";
+
+ 	// Enter the title to appear on top of the calendar
+ 	var calendarTitle = "317 AW Strategic Calendar";
+
+ 	// Enter the URL the Home button should redirect to -- Goes to the 317AW SharePoint
+	var homeURL = "https://usaf.dps.mil/teams/317AirliftWing/SitePages/317th-Airlift-Wing.aspx";
+
+ 	// Enter the default view choice. Options are: week, month, currentMonth (one month view that starts on the 1st versus the current day), 3month, 6month, year
+ 	var defaultView = "currentMonth";
+
+ 	// Enter the URL for the logo image in the top left corner. Leave blank if you don't want a logo.
+ 	var logoURL = "https://usaf.dps.mil/teams/317AirliftWing/SiteAssets/Unit%20Emblem/317%20AW%20Small.png";
+
+ 	// Enter the URL for the background image of the header. Leave blank for a white background.
+ 	//var headerBackground = "https://eim2.amc.af.mil/org/amcds/DDD/test1/SiteAssets/header4.jpg";
+	var headerBackground = "";	
+
+ 	// Enter the URL for the background image of the entire page. Leave blank for a white background.
+ 	//var pageBackground = "https://eim2.amc.af.mil/org/amcds/DDD/test1/SiteAssets/background1.jpg";
+	var pageBackground = "";
+ 	
+// *************************************************************************************************************************
+
+	var DisplayGantt = DisplayGantt || {};
+	var initialLoad = true;
+	var div;
+	var rect;
+	var topPosition;
+	var leftPosition;
+	var listItemURL = location.protocol + "//" + location.hostname + _spPageContextInfo.webServerRelativeUrl.replace(/\s/gm, '%20') + "/Lists/" + calendarListName.replace(/\/|\s/gm, '%20') + "/EditForm.aspx?ID=";
+	var newItemURL = location.protocol + "//" + location.hostname + _spPageContextInfo.webServerRelativeUrl.replace(/\s/gm, '%20') + "/Lists/" + calendarListName.replace(/\/|\s/gm, '%20') + "/NewForm.aspx";
+	//var newItemURL = "https://usaf.dps.mil/teams/317AirliftWing/Lists/Calendar%20Data1/AllItems.aspx";
+	//alert(newItemURL);
+	var newItemOpendialog = "javascript:openDialog('" + newItemURL + "')";
+	//var newItemOpendialog = "javascript:alert("Please go to the other page it you want it to work");
+	var homeURLOpendialog = "javascript:window.open('" + homeURL + "')";
+	var today = new Date();
+	var timelineStartDate;
+	var timelineEndDate;
+
+	// determine start and end dates for visualization based on the chosen defaultView
+	function setInitialDates(Type) {
+
+		switch(Type){
+			case "week":
+			timelineStartDate = new Date().setHours(0,0,-1,0);
+			timelineEndDate = new Date(moment().add(7, "days")).setHours(0,0,0,0);
+			break;
+			
+			case "month":
+			timelineStartDate = new Date().setHours(0,0,0,0);
+			timelineEndDate = new Date(moment().add(1, "months")).setHours(0,0,0,0);
+			break;
+			
+			case "currentMonth":
+			timelineStartDate = new Date(moment().startOf('month'));
+			timelineEndDate = new Date(moment().endOf('month'));
+			break;
+			
+			case "3month":
+			timelineStartDate = new Date().setHours(0,0,0,0);
+			timelineEndDate = new Date(moment().add(3, "months")).setHours(0,0,0,0);
+			break;
+			
+			case "6month":
+			timelineStartDate = new Date().setHours(0,0,0,0);
+			timelineEndDate = new Date(moment().add(6, "months")).setHours(0,0,0,0);
+			break;
+			
+			case "year":
+			timelineStartDate = new Date().setHours(0,0,0,0);
+			timelineEndDate = new Date(moment().add(1, "years")).setHours(0,0,0,0);
+			break;
+		}
+	}
+
+	//Gets the ID, Title, Category, Start Date, and End Date of each entry in the calendar list and renders it to the Gantt calendar
+	DisplayGantt.render = function (){
+		$.ajax({
+			url:  _spPageContextInfo.webAbsoluteUrl + "/_api/web/lists/getbytitle('" + calendarListName + "')/items?$select=*,Category/Title&$expand=Category/Title&$top=5000",
+			method: "GET",
+			headers: { "Accept": "application/json; odata=verbose" },
+			success: function (data) {
+				//console.log(data.d.results);
+				$.each(data.d.results,function(index,value){
+					if (value.Title != null){
+						DisplayGantt.ganttData.push([value.ID,value.Title,value.Category.Title,value.StartDate,value.EndDate]);
+					}						
+				});	
+				//alert(JSON.stringify(DisplayGantt.ganttData)); //Pulling all of the data from StartDate and End Date... Dont know why Start_x0200_Date is not working... will give a null result
+			},
+			error: function (error) {
+				alert("1 Error: "+ JSON.stringify(error));
+			}
+		});		
+	};
+	
+
+	//Renders the script for the announcements
+	DisplayGantt.render();
+
+	var DisplayGantt = (function (){
+		var eventTypes = [];
+		var ganttData = [];
+		var groups = new vis.DataSet();
+		var items = new vis.DataSet();
+		var timeline;
+
+		var firstDay = new Date(moment().startOf('month'));
+		var lastDay = new Date(moment().endOf('month'));
+		
+		function getEventTypes(){
+			$.ajax({
+				url:  _spPageContextInfo.webAbsoluteUrl + "/_api/web/lists/getbytitle('" + categoriesListName + "')/items?$orderby=SortOrder",
+				method: "GET",
+				headers: { "Accept": "application/json; odata=verbose" },
+				success: function (data) {
+					$.each(data.d.results,function(index,value){
+						//if (value.Title != null && value.Gantt_x0020_Color != null){
+						  if (value.Title !=null && value.GanttColor != null){
+							eventTypes.push([value.Title,value.GanttColor,value.SortOrder,value.TextColor]);
+						}						
+					});
+					//alert(JSON.stringify(eventTypes));
+					//alert(eventTypes.length);
+					if(eventTypes.length > 0){ populateGantt() }
+				},
+				error: function (error) {
+					alert("2 Error: "+ JSON.stringify(error));
+				}
+			});	
+		};
+		
+		function populateGantt(){	
+			var style_rules = [];
+									
+			//Assign event type titles to groups
+			for(var g = 0; g < eventTypes.length; g++) {
+				var groupTitle = "group" + eventTypes[g][0].replace(/\/|\s|\&|\./gm, '');
+				var typeColor = eventTypes[g][1];
+				var textColor = eventTypes[g][3];
+
+				style_rules.push("." + groupTitle + " {background-color: " + typeColor + " !important} ");
+				style_rules.push("." + groupTitle + " .dateText" + " {color:" + textColor + " !important}");				
+				groups.add({id: groupTitle, content: eventTypes[g][0], className:"groupStyle " + groupTitle + "BackgroundColor"})	
+			}
+			
+			for (var i = 0; i < ganttData.length; i++) {
+				var id = ganttData[i][0];
+				var title = ganttData[i][1];
+				var groupLane = "group" + ganttData[i][2].replace(/\/|\s|\&|\./gm, '');
+				var start = moment(ganttData[i][3]).format("YYYY-MM-DD") + "T00:00:01";
+				var end = moment(ganttData[i][4]).format("YYYY-MM-DD") + "T23:59:59";
+				var backgroundColor = "white";
+				var itemURL = listItemURL + id;
+				// I compare the date strings since comparing date objects would never match.
+				var dateString = (ganttData[i][3] != ganttData[i][4]) ? moment(start).format('Do MMM') + " - " + moment(end).format('Do MMM') : moment(start).format('Do MMM');
+					
+				// Add all items to the calendar with an onclick that will open the item for editing
+				items.add({ id: "event" + i, group: groupLane, content: "<div style='cursor:pointer;' class= 'itemContainer' onclick=openDialog('" + itemURL + "')><div class='dateText' style='padding: 2px;'>" + dateString + "</div><div class='titleText' style='background-color:" + backgroundColor + " !important; padding: 3px;'>" + title + "</div></div>", start: start, end: end, className: groupLane });
+			}
+			
+			//Loads group css styles to the html head 
+			var style = '<style type="text/css">' + style_rules.join("\n") + "</style>";
+			$("head").append(style);
+			 
+			 
+			 // create visualization
+			setInitialDates(defaultView);
+			var container = document.getElementById('visualization');
+			var options = {
+				start: timelineStartDate, // lower default visible range
+				end: timelineEndDate, // upper default visible range
+				orientation:{axis:"both"},
+				moveable: true,
+				zoomable: false,
+				groupTemplate: function(group){
+					var container = document.createElement('div');
+					var label = document.createElement('div');
+					label.className = "groupStyle";
+					label.innerHTML = group.content.replace(/-/g, " ") + ' ';
+					container.insertAdjacentElement('afterBegin',label);
+					var hide = document.createElement('a');
+					hide.innerHTML = 'hide';
+					hide.className = 'buttonStyle';
+					hide.addEventListener('click',function(){
+						groups.update({id: group.id, visible: false});
+					});
+					container.insertAdjacentElement('beforeEnd',hide);
+					return container;
+				}
+			};
+			
+			
+			timeline = new vis.Timeline(container);
+
+			timeline.setOptions(options);
+			timeline.setGroups(groups);
+			timeline.setItems(items);
+		    timeline.on('changed', function (properties) {
+		    	setOffset();
+		    });
+
+		};
+
+		function setZoom(Type){
+			switch(Type){
+				case "week":
+				timeline.setWindow(new Date().setHours(0,0,-1,0), new Date(moment().add(7, "days")).setHours(0,0,0,0));
+				break;
+				
+				case "month":
+				timeline.setWindow(new Date().setHours(0,0,0,0), new Date(moment().add(1, "months")).setHours(0,0,0,0));
+				break;
+				
+				case "currentMonth":
+				timeline.setWindow(firstDay, lastDay);
+				break;
+				
+				case "3month":
+				timeline.setWindow(new Date().setHours(0,0,0,0), new Date(moment().add(3, "months")).setHours(0,0,0,0));
+				break;
+				
+				case "6month":
+				timeline.setWindow(new Date().setHours(0,0,0,0), new Date(moment().add(6, "months")).setHours(0,0,0,0));
+				break;
+				
+				case "year":
+				timeline.setWindow(new Date().setHours(0,0,0,0), new Date(moment().add(1, "years")).setHours(0,0,0,0));
+				break;
+				
+				case "zoomIn":
+				timeline.zoomIn(0.2);
+				break;
+				
+				case "zoomOut":
+				timeline.zoomOut(0.2);
+				break;
+				
+				case "default":
+				timeline.setWindow(timelineStartDate, timelineEndDate);
+				break;
+			}
+		};
+		
+		function displayLanes(selectedView){
+			groups.forEach(function(group){
+					if(group.className !== null){
+						groups.update({id: group.id, visible: true});
+					}else{
+						groups.update({id: group.id, visible: false});
+					}
+
+			});
+			setZoom('default');
+		}	
+				
+	return{
+			ganttData : ganttData, getEventTypes : getEventTypes, setZoom : setZoom, displayLanes : displayLanes
+		};	
+	})();
+	
+	//Document on ready function. Starts on page load
+	$(document).ready(function(){
+		//Sets the tab title
+		document.title = calendarTitle;
+		
+		//Appends logo image and text to the Header
+		$("#stratHeader").append($("#logoImage"));
+		$("#stratHeader").append($("#stratHeaderImg"));
+		$("#headerTxt").text(calendarTitle);
+		
+		//appends the menu to the header
+		$("#stratHeader").append($("#menu"));		
+		
+		//Can use CTRL + , to unhide the SharePoint menu
+		Mousetrap.bind('ctrl+,',function(e) {
+			$('.style-div').empty();
+		});	
+		
+		//Starts gathering groups to render gantt
+		DisplayGantt.getEventTypes(); 
+		
+		setTimeout(function(){ DisplayGantt.displayLanes('ShowAllEvents') }, 1500);
+
+	});
+
+	function openDialog(Url, Title){
+		var options = {
+			url: Url,
+			height: 600,
+			title: Title,
+			dialogReturnValueCallback: function(result){			
+				if(result == 1){
+					setTimeout(function(){ location.reload(); }, 200);
+				}
+			}	
+		};
+		
+		SP.SOD.execute('sp.ui.dialog.js', 'SP.UI.ModalDialog.showModalDialog', options);  
+	};
+
+	function setOffset() {
+		if (initialLoad == true) {
+			div = document.querySelector('.vis-top');
+			rect = div.getBoundingClientRect(),
+			scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+			scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+			topPosition = (Math.round(rect.top) - 37).toString() + "px";
+			leftPosition = (Math.round(rect.left) - 1).toString() + "px";
+			document.getElementById("homebutton").setAttribute("onclick", homeURLOpendialog);
+			document.getElementById("addevent").setAttribute("onclick", newItemOpendialog);
+			document.getElementById("logoSource").setAttribute("src", logoURL);
+			$('#stratHeader').css('background-image', 'url(' + headerBackground + ')');
+			$('#s4-workspace').css('background-image', 'url(' + pageBackground + ')');
+			initialLoad = false;
+	    } else {
+			rect = div.getBoundingClientRect(),
+			scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+			leftPosition = (Math.round(rect.left) - 1).toString() + "px";
+			document.getElementsByClassName("vis-top")[3].style.position = "fixed";
+	    	document.getElementsByClassName("vis-top")[3].style.top = topPosition;
+	    	document.getElementsByClassName("vis-top")[3].style.left = leftPosition;
+	    }
+	}
+
+</script>
+
+<div class="hideContainer" style="">
+
+	<div id="logoImage" style="position: absolute; top: 5px; left: 40px; z-index: 1;"><img id="logoSource" src="" style="height: 150px; width: auto;"></div>
+	<div id='stratHeaderImg' class='headerImgs' style="height: 80px;">
+		<div class="row" style="width:630px; margin: 0 auto; text-align: center !important;">
+			<p id="headerTxt" style ="font-size:30px; font-weight:bold; margin-top:10px; color:black; font-family:'Arial Black', Gadget, sans-serif; background-color: white; opacity: .75;"></p> 
+		</div>
+	</div>
+	
+	<div id= "menu" style='margin-bottom:51px; text-align:center; z-index: 99;'>
+		<button type='button' id="homebutton" onclick="")>Home</button>
+		<button type='button' onclick=javascript:window.print();>Print in CHROME only</button>
+ 		<button type='button' id="addevent" onclick="")>Add Event</button>
+		<button type="button" onclick="javascript:DisplayGantt.displayLanes('ShowAllEvents');">Default View</button>
+		<button type="button" onclick="DisplayGantt.setZoom('zoomIn');">Zoom In</button>
+		<button type="button" onclick="DisplayGantt.setZoom('zoomOut');">Zoom Out</button>
+		<button type="button" onclick="DisplayGantt.setZoom('week');">1 Week</button>
+		<button type="button" onclick="DisplayGantt.setZoom('month');">1 Month</button>
+		<button type="button" onclick="DisplayGantt.setZoom('currentMonth');">Current Month</button>
+		<button type="button" onclick="DisplayGantt.setZoom('3month');">3 Months</button>
+		<button type="button" onclick="DisplayGantt.setZoom('6month');">6 Months</button>
+		<button type="button" onclick="DisplayGantt.setZoom('year');">1 Year</button>
+	</div>
+	<div id='stratHeader'></div>
+	<div id='visualization'></div>
+	
+</div>
+
+<div class="style-div">
+	<style type="text/css">
+		#s4-ribbonrow, .ms-cui-topBar2, .s4-notdlg, .s4-pr s4-ribbonrowhidetitle, .s4-notdlg noindex, #ms-cui-ribbonTopBars, #s4-titlerow, #s4-pr s4-notdlg s4-titlerowhidetitle, #s4-leftpanel-content {display:none !important;}
+
+		.s4-ca{margin-left:0px !important; margin-right:0px !important;}
+		#suiteBar{display:none;}
+	</style>
+</div>
+
+<style type="text/css">
+
+	#s4-ribbonrow, .ms-cui-topBar2, .s4-notdlg, .s4-pr s4-ribbonrowhidetitle, .s4-notdlg noindex, #ms-cui-ribbonTopBars, #s4-titlerow, #s4-pr s4-notdlg s4-titlerowhidetitle, #s4-leftpanel-content, .s4-ca, #suiteBar {
+		z-index: 999;
+	}
+
+	#pageTitle, #sideNavBox, #titleAreaBox, .eim banner { display:none; }
+	
+    body, html {
+		font-family: arial, sans-serif;
+		font-size: 8pt;
+    }
+
+    #contentRow {
+    	padding-top: 0px;
+    	margin-top: -22.25px;
+    }
+
+	#contentBox {
+		margin-left:25px;
+		margin-right:25px;
+	}
+
+	#stratHeader {
+		position: fixed;
+		background-color: white;
+		background-size: cover;
+		z-index: 99;
+		top: 0px;
+		right: 0px;
+		width: 100%;
+		margin-right: 17px;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+	}
+
+    #s4-workspace {
+    	background-color: white;
+		background-size: cover;
+    }
+	
+    #visualization {
+    	background-color: white;
+		box-sizing: border-box;
+		width: 100%;
+		border: solid black 1px;
+		position: relative;
+		top: 88px;
+    }
+	
+    .titleText {
+    	overflow: visible;
+/*    	text-overflow: ellipsis;
+*/    }
+	
+/*    .titleText:hover {
+    	overflow: visible;
+    	width: auto;
+    	background-color: white;
+    }
+*/
+	.vis-time-axis .vis-text *{
+		color: black;
+		background-color: white !important;
+    }
+
+    .vis-top {
+    	background-color: #ffffff !important;
+    	z-index: 99;
+    	top: 0px;
+    	left: 0px;
+    }
+
+  	.vis-item {
+    	border-color: black !important;
+  	}
+	
+	.vis-item .vis-item-content {
+		padding: 0px !important;
+	}
+  
+	.vis-item-content{
+    	font-size: 11px;
+  	}
+  
+	.vis-item .vis-item-overflow {
+      	overflow: visible;
+    }
+  
+  	.vis-timeline{
+    	border: solid black 1px;
+  	}
+  
+  	.vis-item.vis-background{
+      	background-color: rgba(149, 168, 234, 0.3);
+    }
+	
+	.vis-dot {
+		visibility: hidden;
+	}
+
+	.vis-line {
+		visibility: hidden;
+	}
+
+	.vis-h0-h4, .vis-h0 {
+		color: white !important;
+	}
+
+	.vis-h1, .vis-h2, .vis-h3, .vis-h4, .vis-h5, .vis-h6, .vis-h7, .vis-h8, .vis-h9, .vis-h10, .vis-h11, .vis-h12, .vis-h13, .vis-h14, .vis-h15, .vis-h16, .vis-h17, .vis-h18, .vis-h19, .vis-h20, .vis-h21, .vis-h22, .vis-h23, .vis-h4-h8, .vis-h8-h12, .vis-h12-h16, .vis-h16-h20, .vis-h20-h24 {
+		display: none !important;
+	}
+	
+	.headerImgs {
+		z-index: 99;
+	}	
+	
+	.groupStyle {
+		font-size: 9pt;
+		color:black !important;
+		font-weight:bold !important;
+	}
+	
+	.buttonStyle {
+		cursor: pointer;
+		font-size:8pt;
+	}
+
+	button {
+		cursor: pointer;
+		z-index: 2;
+		border: 2px solid #06082F;
+	}
+	
+	/*-- our clearfix hack -- */ 
+    .row:before, 
+    .row:after {
+        content:"";
+        display: table ;
+        clear:both;
+    }
+
+    [class*='col-'] {
+        float: left; 
+        min-height: 1px; 
+        /*-- our gutter -- */
+        padding: 5px;
+    }
+	
+	@media print {
+		body {-webkit-print-color-adjust: exact;}
+		#menu {display:none !important;}
+		#addBtn{display:none !important;}
+	}
+	
+	@page {
+		margin-left: 5px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin: 0;
+		-webkit-print-color-adjust: exact;
+	}
+	
+	/* Colors the background of every other row */
+	.vis-background .vis-group:nth-child(even) {
+		background-color: rgba(243, 173, 12, 0.3) !important;
+	}
+
+	.vis-labelset .vis-label:nth-child(odd) {
+		background-color: rgba(243, 173, 12, 0.3) !important;
+	}
+</style>

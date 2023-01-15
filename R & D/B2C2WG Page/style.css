@@ -1,0 +1,20 @@
+.parent {
+  position: relative;
+  display: inline;
+  width: 100%;
+  max-width: 1000px;
+}
+
+ .a1 {
+  position: absolute;
+  top: 40%;
+  left: 51%;
+}
+
+.container .a1:hover {
+	opacity: .75;
+}
+
+.container .a1:active {
+ opacity: .75;
+}

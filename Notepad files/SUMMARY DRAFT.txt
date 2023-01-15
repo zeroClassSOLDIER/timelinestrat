@@ -1,0 +1,19 @@
+ERA
+	o	
+	Created to address retiring Event Registration page for AFGSC Command Support Staff
+	Engineered to be an application to share and install across the US Air-force for organizations using SharePoint
+	Engineered so that events can be registered/unregistered at with the click of a single button with automatic email notification
+	Can be used to create general events and specialized events such as courses
+	Took feedback from users to create an enhanced final version 2.0
+
+	Setup SharePoint dashboard on SIPR environment including transferring files and testing for bugs and functionality
+	Assisted with UI/UX design and provided requests:
+•	Layout of different pages on the app: 
+o	Dashboard with table displaying data for each objective, such as Objective title, assessments, Start and End Dates, etc.
+o	Timeline for providing a Gantt chart view of various tasks as color coded boxes stretching from start to end dates on timeline, and milestones as diamond shaped points at date of occurrence on the timeline. Timeline also captured Special events such as Senior Leader Visits, Foreign and international holidays
+o	Workspace for various tasks such as uploading documents, and senior/AO comments sections
+•	How to display data for objectives such as where to arrange button group for options such as Edit, View, and Delete
+•	Make Objective title clickable to take user directly to a Workspace for that objective
+•	Researched new JavaScript plugin/framework for creating a timeline for Gantt view VisJS, providing CSS code for formatting timeline to be engineered into SET
+
+

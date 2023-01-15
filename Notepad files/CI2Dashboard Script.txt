@@ -1,0 +1,54 @@
+The one i want to see I said to mom
+
+Thank you Sgt. Mitchell,
+
+The data you see on this screen is not real-world data and only dummy data used to simulate what actual data for testing and demo purposes.
+
+As you can see each row on this table is a process where every column is a part or aspect of the process we are displaying.
+
+First we'll start with creating the process, which is an entry or row on this form.
+First, the user will click "Initiate Process"
+	Second, they will fill out the form. Fields with Aterisks are required.
+	
+	Title: Maintenance crew cannot fix B52 engines rusting
+	Description: Maintenance crew cannot fix B52 engines rusting
+	Quality: High
+Click Create
+
+An email is automatically generated and sent to the manger notifying them that a new process is created and ready for them to review.
+
+As you can see information about the process is displayed as follows. 
+This information is for this demo, and will change based upon your feedback.
+
+the user can upload any necessary attachments realted to the process under supporting documents as follows. 
+
+The manager and user can also see who was the last person to have modified the process and on what date.
+
+Here the buttons represent the different steps in the improvement process with edit being the button for moving from step to step. The default status for when a process is created is submitted.
+
+Questions?
+
+After clicking into the Edit button the manager and user can modify fields as needed such as description, assessment, etc. However only a manager will beable to edit Status. This is the key field for moving from step to step and only the manager has control of it.
+
+If a manger disapproves of any process at any step, an automated email is sent to the user. They will have the ability to edit information as necessary for the manager to re-review at any any step in the process.
+
+Questions?
+
+Upon Approval, an automated email is sent to the user who will now be able to click Improvement Criteria. Upon filling out the Set Improvement and Determine Root Cause fields, an email is auto generated notifying the manager who can now review it.
+
+Questions?
+
+Upon approving, the manager changes status to Improvement-Criteria Approved and the next step moves to Counter Measure.
+After the user has submitted, an email is auto generated to the manager informing them that the Improvement Criteria is ready for review.
+
+Questions?
+
+Upon approving, the manager changes status to Counter-Measure Criteria Approved and the next step will move to Confirmation.
+
+Questions?
+
+We have gone this stopped at this particular step before the final so that we can gather feedback on the CI2 dashboard. This is so that we can add the final step for confirmation and any other changes and as requested based on this demo.
+
+
+Questions?
+

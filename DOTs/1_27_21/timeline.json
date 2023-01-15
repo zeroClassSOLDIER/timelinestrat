@@ -1,0 +1,34 @@
+{
+    "title": "AF Global Strike Command",
+    "captionField": "LineOfEffort.SelectedFocusArea",
+    "captionTask": "Objective.Group",
+    "endField": "EndDate",
+    "endTask": "DueDate",
+    "groupField": "LineOfEffort.LineOfEffort",
+    "groupTask": "Objective.LineOfEffort",
+    "imgUrl": "images/afgsc.png",
+    "priorityField": "Priority",
+    "priorityTask": "Priority",
+    "startField": "StartDate",
+    "startTask": "StartDate",
+    "titleField": "Objective",
+    "titleTask": "TaskTitle",
+    "template": "<h5>LOE: [[LineOfEffort.LineOfEffort]]</h5><h5>Goal: [[LineOfEffort.SelectedGoal]]</h5><h6>[[Status]]</h6><h6>[[Priority]]</h6>[[Body]]<br/>[[WorkspaceButton]][[TasksButton]][[ViewButton]][[EditButton]][[CommentButton]]",
+    "templateTask": "<h5>Objective: [[Objective.Objective]]</h5><h5>LOE: [[Objective.LineOfEffort.LineOfEffort]]</h5><h5>Goal: [[Objective.LineOfEffort.SelectedGoal]]</h5><h6>[[Status]]</h6><h6>[[Priority]]</h6>[[Body]]<br/>[[ViewButton]][[EditButton]][[CommentButton]]",
+    "colorField": "Priority",
+    "colorTask": "Priority",
+    "color": {
+        "default": "#40587c",
+        "Tier 0": "#a4262c",
+        "Tier 1": "#ca5010",
+        "Tier 2": "#407855"
+    },
+    "thumbnailField": "Priority",
+    "thumbnailTask": "Priority",
+    "thumbnail": {
+        "default": "images/af-logo.png",
+        "High": "images/af-logo-red.png",
+        "Normal": "images/af-logo-yellow.png",
+        "Low": "images/af-logo-green.png"
+    }
+}

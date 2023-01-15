@@ -1,0 +1,18 @@
+event registration application
+era
+
+events and onboarding notifications
+eon
+
+	1) Purpose/Overview
+	2) Technical Requirements
+		- Tech Stack
+		- SharePoint Requirements
+	3) Installation
+	4) How to Use
+
+business problem
+tech stack used
+talk through the code
+
+

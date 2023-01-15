@@ -1,0 +1,16 @@
+WEB
+1
+https://usaf.dps.mil/sites/AFGSC-HQ/hq/ds/dsk/josh/EventReg2/_vti_bin/owssvr.dll?XMLDATA=1&List={0F1C7784-7229-47BF-8AF7-E25B71CD2D2D}&View=F7F61947-1BF7-4D36-8394-C6012CA96C22&RowLimit=0&RootFolder=
+
+Selection={0F1C7784-7229-47BF-8AF7-E25B71CD2D2D}-F7F61947-1BF7-4D36-8394-C6012CA96C22
+EditWebPage=
+Formatting=None
+PreFormattedTextToColumns=True
+ConsecutiveDelimitersAsOne=True
+SingleBlockTextImport=False
+DisableDateRecognition=False
+DisableRedirections=False
+SharePointApplication=https://usaf.dps.mil/sites/AFGSC-HQ/hq/ds/dsk/josh/EventReg2/_vti_bin
+SharePointListView=F7F61947-1BF7-4D36-8394-C6012CA96C22
+SharePointListName={0F1C7784-7229-47BF-8AF7-E25B71CD2D2D}
+RootFolder=

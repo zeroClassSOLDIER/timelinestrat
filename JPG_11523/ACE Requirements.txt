@@ -1,0 +1,2 @@
+omit OPR Board and OCR Board
+keep OPR Working Groups and OCR Working Groups and add OPR's from email to OPR working group and add OCR's from email to OCR working group.

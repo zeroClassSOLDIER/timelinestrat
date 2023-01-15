@@ -1,0 +1,7 @@
+Take out Title
+Re-Up Date of Preference (within 10 days)
+Change "(High) Other reason w/in 1 month DOS" to "(High) Other reason"
+Add a "Yes/No" dropdown that will show the Leave Settlement on the form
+Get rid of PAS Code
+Add new status fields "Ready for NCOIC" and "Ready for myFSS"
+ 

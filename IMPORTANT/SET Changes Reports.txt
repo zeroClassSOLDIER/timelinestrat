@@ -1,0 +1,69 @@
+Timeline -
+	Objectives - working
+	New Tasks - working
+		View - Tasks - Working
+		Edit - Tasks - Working
+
+Add a delete button for Objectives/Tasks?
+
+Refresh Form/Refresh Page buttons appear at random on Tasks form when trying to Update.
+
+Tasks - View/Edit buttons do not work or work at random.
+
+Restructure the group lists as lookup column.
+
+Dependency indication for item. tooltip
+
+Change Names in groups for GO/SL visits and HAF Events - User Story (3 Points) - 1
+Refactor Category Cloumn in SP list to lookup. - User Story (5 Points) - 2
+arrange items by date vertically. - User Story (5 Points) - 1
+	make 1 month the default - User Story (3 Points) - 1
+fix bugs and make the timeline properly centered - Bugs (30 mins each) - 1
+Make group clickable to display modal - User Story (5 Points) - 1
+Make Milestones and tasks clickable to workspace - User Story (5 Points) - 1
+hide items that are out of range on the timeline - User Story (5 Points) - 2
+Change colored shapes/text for items to black text with custom colored icons - Enhancements (30 min.) - 3
+Add custom colored icons to the Group label on the timeline - Enhancements (30 min.) - 3
+Create tab view for Events Calendar and objectives calendar, and separate them. - User Story (8 Points) - 3 
+Dependency flag on item indicating that the milestone or task has others dependencey - 1
+Add (S) to Operational Context. - enhancement. - 1 
+
+Add white background to the favorite's star on the modal. - enhancement
+Add a Close button to modal????????? - enhancement
+
+
+
+As an AO
+I need timeline-row labels arranged
+so that they will be vertically in-box centered
+
+
+As an AO
+I need milestone/task indicators
+so that other items depending on it are identifiable
+
+
+As an AO
+I need to rearrange obejctive-details modal
+so that it will be clickable by group background
+
+
+As an AO 
+I need to make timeline items clickabale
+so that it will navigate to the workspace
+
+1) 
+As a developer
+I need Strat Cal code refactored
+so that Categories will be lookup based
+
+1) As an AO
+I need the items to appear listed by due date
+so that I can read what is due from top to bottom
+
+
+
+enhancements: 
+	add "text-align: center;" to timeline.vue CSS
+	Change text and icons for the timeline.
+

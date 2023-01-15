@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Important Stuff DO NOT DELETE -->
+<div class="ms-rte-embedcode ms-rte-embedwp">
+<meta charset="utf-8">
+
+    <script src="https://usaf.dps.mil/sites/AFGSC-HQ/SiteAssets/code/jquery-3.3.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,700" rel="stylesheet prefetch">   
+      
+    <script src="https://usaf.dps.mil/sites/AFGSC-HQ/SiteAssets/code/bootstrap.min.js"></script>
+    <link href="https://usaf.dps.mil/sites/AFGSC-HQ/SiteAssets/code/bootstrap.min.css" rel="stylesheet prefetch">
+    <script defer src="https://usaf.dps.mil/sites/AFGSC-HQ/SiteAssets/code/all.js"></script>
+	
+<!-- CSS CODE IMPORTANT STUFF DO NOT DELETE-->
+
+<style>
+/* Button Style of first tab buttons 
+AF blue Hex code 29338A */
+.btn1-primary {
+	color: white; /* ... Primary Color for image and font ... */
+	background-color: #00308f;
+	margin: 5px 
+	font: 8em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+	font-size: 100%;
+			  /* ... other rules ... */
+	cursor: pointer;
+	width: 125px;
+	height: 125px;
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+	line-height: 25px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	left: 35px;
+
+}
+
+.btn1-primary:focus,
+.btn1-primary.focus {
+	color: white;
+	background-color: #29338A;
+	
+}
+/* Color of button when you hover over it */
+.btn1-primary:hover {
+	color: #fff; /*... First tab hover Secondary Color for image and font ... */
+	background-color: #CBC4C4;
+	border-color: #CBC4C4;
+	
+}
+
+.btn1-primary:active,
+.btn1-primary.active,
+.open > .dropdown-toggle.btn1-primary {
+	color: #fff268;
+	background-color: #286090;
+	
+}
+
+.btn1-primary:active:hover,
+.btn1-primary.active:hover,
+.open > .dropdown-toggle.btn1-primary:hover,
+.btn1-primary:active:focus,
+.btn1-primary.active:focus,
+.open > .dropdown-toggle.btn1-primary:focus,
+.btn1-primary:active.focus,
+.btn1-primary.active.focus,
+.open > .dropdown-toggle.btn1-primary.focus {
+	color: #fff;
+	background-color: #204d74;
+	
+}
+.btn1-primary:active, .btn1-primary.active, .open > .dropdown-toggle.btn1-primary {
+  	background-image: none;
+}
+.btn1-primary.disabled:hover, .btn1-primary[disabled]:hover,
+fieldset[disabled] .btn1-primary:hover,
+.btn1-primary.disabled:focus,
+.btn1-primary[disabled]:focus,
+fieldset[disabled] .btn1-primary:focus,
+.btn1-primary.disabled.focus,
+.btn1-primary[disabled].focus,
+fieldset[disabled] .btn1-primary.focus {
+	background-color: #00308F;
+	
+}
+.btn1-primary .badge {
+	color: #00308F;
+	background-color: #fff;
+}
+.icon-container{
+	margin: 0 auto;
+	display: table;
+	width: 75%;
+
+
+ </style>
+
+
+
+
+<style>
+.container {
+  margin-top:30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro';
+  font-weight:700;
+}
+
+.fancyTab {
+text-align: center;
+  padding:15px 0;
+  background-color: #eee;
+box-shadow: 0 0 0 1px #ddd;
+top:15px;
+  transition: top .2s;
+}
+
+.fancyTab.active {
+  top:0;
+  transition:top .2s;
+}
+
+.whiteBlock {
+  display:none;
+}
+
+.fancyTab.active .whiteBlock {
+  display:block;
+  height:2px;
+  bottom:-2px;
+  background-color:#fff;
+  width:99%;
+  position:absolute;
+  z-index:1;
+}
+
+.fancyTab a {
+font-family: 'Source Sans Pro';
+font-size:1.65em;
+font-weight:300;
+  transition:.2s;
+  color:#333;
+}
+
+/*.fancyTab .hidden-xs {
+  white-space:nowrap;
+}*/
+
+.fancyTabs {
+border-bottom:2px solid #ddd;
+  margin: 15px 0 0;
+}
+
+li.fancyTab a {
+  padding-top: 15px;
+  top:-15px;
+  padding-bottom:0;
+}
+
+li.fancyTab.active a {
+  padding-top: inherit;
+}
+
+.fancyTab .fa {
+  font-size: 40px;
+width:100%;
+padding: 15px 0 5px;
+  color:#666;
+}
+
+.fancyTab.active .fa {
+  color: #00308F;
+}
+
+.fancyTab a:focus {
+outline:none;
+}
+
+.fancyTabContent {
+  border-color: transparent;
+  box-shadow: 0 -2px 0 -1px #fff, 0 0 0 1px #ddd;
+  padding: 30px 15px 15px;
+  position:relative;
+  background-color:#fff;
+}
+
+.nav-tabs > li.fancyTab.active > a,
+.nav-tabs > li.fancyTab.active > a:focus, .nav-tabs > li.fancyTab.active > a:hover { border-width:0; }
+
+.nav-tabs > li.fancyTab:hover {
+background-color:#f9f9f9;
+box-shadow: 0 0 0 1px #ddd;
+}
+
+.nav-tabs > li.fancyTab.active:hover {
+  background-color:#fff;
+  box-shadow: 1px 1px 0 1px #fff, 0 0px 0 1px #ddd, -1px 1px 0 0px #ddd inset; }
+
+.nav-tabs > li.fancyTab:hover a {
+border-color:transparent;
+}
+
+.nav.nav-tabs .fancyTab a[data-toggle="tab"] {
+  background-color:transparent;
+  border-bottom:0;
+}
+
+.nav-tabs > li.fancyTab:hover a {
+  border-right: 1px solid transparent;
+}
+
+.nav-tabs > li.fancyTab > a {
+margin-right:0;
+border-top:0;
+  padding-bottom: 30px;
+  margin-bottom: -30px;
+}
+
+.nav-tabs > li.fancyTab {
+margin-right:0;
+margin-bottom:0;
+}
+
+.nav-tabs > li.fancyTab:last-child a {
+  border-right: 1px solid transparent;
+}
+
+.nav-tabs > li.fancyTab.active:last-child {
+  border-right: 0px solid #ddd;
+box-shadow: 0px 2px 0 0px #fff, 0px 0px 0 1px #ddd; }
+
+.fancyTab:last-child {
+  box-shadow: 0 0 0 1px #ddd;
+}
+
+.tabs .nav-tabs li.fancyTab.active a {
+box-shadow:none;
+  top:0;
+}
+
+
+.fancyTab.active {
+  background: #fff;
+box-shadow: 1px 1px 0 1px #fff, 0 0px 0 1px #ddd, -1px 1px 0 0px #ddd inset;
+  padding-bottom:30px;
+}
+
+.arrow-down {
+display:none;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 22px solid #ddd;
+  position: absolute;
+  top: -1px;
+  left: calc(50% - 20px);
+}
+
+.arrow-down-inner {
+  width: 0;
+  height: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-top: 12px solid #fff;
+  position: absolute;
+  top: -22px;
+  left: -18px;
+}
+
+.fancyTab.active .arrow-down {
+  display: block;
+}
+
+@media (max-width: 800px) {
+
+  .fancyTab .fa {
+  font-size: 36px;
+  }
+
+  .fancyTab .hidden-xs {
+    font-size:22px;
+}
+}
+@media (max-width: 992px) {
+
+  .fancyTab .fa {
+  font-size: 33px;
+  }
+
+  .fancyTab .hidden-xs {
+  font-size:18px;
+    font-weight:normal;
+  }
+}
+@media (max-width: 768px) {
+
+  .fancyTab > a {
+    font-size:18px;
+  }
+
+  .nav > li.fancyTab > a {
+    padding:15px 0;
+    margin-bottom:inherit;
+  }
+
+  .fancyTab .fa {
+    font-size:30px;
+  }
+
+  .nav-tabs > li.fancyTab > a {
+    border-right:1px solid transparent;
+    padding-bottom:0;
+  }
+
+  .fancyTab.active .fa {
+    color: #333;
+}
+}
+
+</style>
+
+<script>
+
+$(document).ready(function() {
+
+
+
+    var numItems = $('li.fancyTab').length;
+  if (numItems == 12){
+$("li.fancyTab").width('8.3%');
+}
+  if (numItems == 11){
+$("li.fancyTab").width('9%');
+}
+  if (numItems == 10){
+$("li.fancyTab").width('10%');
+}
+  if (numItems == 9){
+$("li.fancyTab").width('11.1%');
+}
+  if (numItems == 8){
+$("li.fancyTab").width('12.5%');
+}
+  if (numItems == 7){
+$("li.fancyTab").width('14.2%');
+}
+  if (numItems == 6){
+$("li.fancyTab").width('16.666666666666667%');
+}
+  if (numItems == 5){
+$("li.fancyTab").width('20%');
+}
+  if (numItems == 4){
+$("li.fancyTab").width('25%');
+}
+  if (numItems == 3){
+$("li.fancyTab").width('33.3%');
+}
+  if (numItems == 2){
+$("li.fancyTab").width('50%');
+}
+
+
+
+});
+
+$(window).load(function() {
+
+  $('.fancyTabs').each(function() {
+
+    var highestBox = 0;
+    $('.fancyTab a', this).each(function() {
+
+      if ($(this).height() > highestBox)
+        highestBox = $(this).height();
+    });
+
+    $('.fancyTab a', this).height(highestBox);
+
+  });
+});
+
+</script>
+
+<style>
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  9FBED5: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #00308f;
+  color: white;
+}
+</style>
+ 
+
+<style>
+input[type=button] {
+
+    font:2.0em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    height:100px;
+    width:140px;
+    font-weight:light;
+    font-size:100%;
+    /* ... other rules ... */
+    cursor:pointer;
+    float: left;
+    list-style: none;
+    margin-right: 7px;
+    line-height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+input[type=button]:hover {
+    background-color:#00308F;
+    color: #fff
+}
+.outer-div
+{
+     padding: 30px;
+}
+.inner-div
+{
+     margin: 0 auto;
+     width: 100px; 
+
+</style>
+</style>
+</head>
+
+
+
+
+<!--Code to change starts here-->
+<body>
+
+<!-- TOP TABS NAME -->
+<div class="container">
+<section class="tabs t-tabs" id="fancyTabWidget">
+        <ul class="nav nav-tabs fancyTabs" role="tablist">
+
+					<!-- TAB Name 0-->
+                    <li class="tab fancyTab" style="width: 16.66%;">
+                    <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                        <a tabindex="0" id="tab0" role="tab" aria-selected="true" aria-controls="tabBody0" href="#tabBody0" data-toggle="tab"><span class="fa fa-archive fa-2x center-block"></span><span class="hidden-xs">DSK</span></a><!-------------------------------^Change to change icon-->
+                    <div class="whiteBlock"></div>
+                    </li>
+                    
+					<!-- TAB NAME 1 -->
+                    <li class="tab fancyTab" style="width: 16.66%;">
+                    <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                        <a tabindex="0" id="tab1" role="tab" aria-selected="true" aria-controls="tabBody1" href="#tabBody1" data-toggle="tab"><span class="fa fa-book-open fa-2x center-block"></span><span class="hidden-xs">Knowledge Management</span></a>
+                        <div class="whiteBlock"></div>
+                    </li>
+					<!-- TAB NAME 2-->
+                    <li class="tab fancyTab" style="width: 16.66%;">
+                    <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                        <a tabindex="0" id="tab2" role="tab" aria-selected="true" aria-controls="tabBody2" href="#tabBody2" data-toggle="tab"><span class="fa fa-lightbulb fa-2x center-block"></span><span class="hidden-xs">Strategic Innovation</span></a>
+                        <div class="whiteBlock"></div>
+                    </li>
+						
+					<!-- TAB NAME 3-->
+                    <li class="tab fancyTab active" style="width: 16.66%;">
+                    <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                        <a tabindex="0" id="tab3" role="tab" aria-selected="true" aria-controls="tabBody3" href="#tabBody3" data-toggle="tab"><span class="fa fas fa-id-card fa-2x center-block"></span><span class="hidden-xs">Contact Info</span></a>
+                        <div class="whiteBlock"></div>
+                    </li>
+                    
+                    
+					<!-- MORE TABS BELOW HERE 	
+                    <li class="tab fancyTab" style="width: 16.66%;">
+                    <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                        <a tabindex="0" id="tab4" role="tab" aria-selected="true" aria-controls="tabBody4" href="#tabBody4" data-toggle="tab"><span class="fa fa-thermometer-half"></span><span class="hidden-xs">TEST NAME</span></a>
+                        <div class="whiteBlock"></div>
+                    </li>
+
+                    <li class="tab fancyTab" style="width: 16.66%;">
+                    <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                        <a tabindex="0" id="tab5" role="tab" aria-selected="true" aria-controls="tabBody5" href="#tabBody5" data-toggle="tab"><span class="fa fa-address-card"></span><span class="hidden-xs">TEST NAME</span></a>
+                        <div class="whiteBlock"></div>
+                    </li>-->
+                    
+                    
+              
+        </ul>
+        
+        
+        
+        
+<!-- BUTTONS FOR TAB 0 DSK Buttons -->	       
+        <div class="tab-content fancyTabContent" id="myTabContent" aria-live="polite">
+                    <div tabindex="0" class="tab-pane  fade" id="tabBody0" role="tabpanel" aria-hidden="false" aria-labelledby="tab0">
+                        <div>
+                        <div class="row">
+
+                                <div class="col-md-12">
+                        <h2 style=" color:gray; text-align: center"></h2>
+									<center>
+									<div class="btn1-group row">
+									<div class="icon-container" style="text-align:center" ;="">
+		
+		<button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='https://usaf.dps.mil/sites/AFGSC-HQ/hq/ds/dsk/SiteAssets/set-dashboard/Dashboard.aspx';" type="button">
+		<i class="fa fa-chalkboard-teacher fa-4x center"></i><br> Shop Dashboard </button>
+        
+        
+        <button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='https://usaf.dps.mil/sites/AFGSC-HQ/hq/ds/dsk/Knowledge%20Corner/Forms/AllItems.aspx';" type="button">
+		<i class="fa fas fa-file fa-4x center"></i><br>Helpful Documents</button>
+
+        <!-- BELOW IS THE CODE TO COPY THEN PASTE TO MAKE MORE BUTTONS UNDER THE THIS TAB-->
+        <!--<button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='https://usaf.dps.mil/sites/AFGSC-HQ/hq/ds/dsktest/SiteAssets/set-dashboard/Dashboard.aspx';" type="button">
+		<i class="fa fa-chalkboard-teacher fa-4x center-block"></i><br> Shop Dashboard </button>-->	
+
+    <button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='https://usaf.dps.mil/sites/AFGSC-HQ/hq/ds/dsk/Shared%20Documents/Tabs%20Documents/AF 365 Teams Dial-In Request.pptx';" type="button">
+    <i class="fa fa-user-friends fa-5x center"></i><br>AF 365 Teams Dial-In Request</button>	
+
+</div>				
+</div>
+									
+									</center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+<!-- Button FOR TAB 1 KNOWLEDGE MANAGEMENT Button -->
+
+<div tabindex="0" class="tab-pane  fade" id="tabBody1" role="tabpanel" aria-hidden="true" aria-labelledby="tab1">
+                        <div class="row">
+
+                                <div class="col-md-12">
+                        <h2 style=" color:gray; text-align: center"></h2>
+                        <div class="icon-container" style="text-align:center;">
+
+        	<center>
+            
+            
+<!--- Knowledge Management Cell Button -->
+
+       <button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='https://usaf.dps.mil/sites/AFGSC-HQ/hq/ds/dsk/KM%20Plan/Forms/AllItems.aspx';" type="button">
+		<i class="fas fa-list-ol fa-4x center"></i><br>KM Plan</button>
+        
+        <button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='https://usaf.dps.mil/sites/AFGSC-HQ/hq/ds/dsk/Business%20Rules/Forms/AllItems.aspx';" type="button">
+		<i class="fab fa-leanpub fa-4x center"></i><br>Business Rules</button>	
+        
+        
+        <button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='https://usaf.dps.mil/sites/AFGSC-HQ/hq/ds/dsk/Lists/Modernization%20Dates/AllItems.aspx';" type="button">
+		<i class="fas fa-calendar-day fa-4x center"></i><br>Modernization Dates</button>
+        
+        
+        <!-- BELOW IS THE CODE TO COPY THEN PASTE TO MAKE MORE BUTTONS UNDER THE THIS TAB-->
+        <!--<button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='https://usaf.dps.mil/sites/AFGSC-HQ/hq/ds/dsktest/Business%20Rules/Forms/AllItems.aspx';" type="button">
+		<i class="fab fa-leanpub fa-4x center-block"></i><br>TEST NAME</button>-->	
+        
+        
+		</center>
+									</div>
+                                </div>
+                            </div>
+                    </div>
+                    
+
+
+<!-- Strategic Innovation Cell Button -->
+
+<div tabindex="0" class="tab-pane  fade" id="tabBody2" role="tabpanel" aria-hidden="true" aria-labelledby="tab2">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <h2 style=" color:gray; text-align: center"></h2>
+            <center>
+            	
+<div class="icon-container" style="text-align:center;">
+
+        	<center>
+       <button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='https://usaf.dps.mil/sites/AFGSC-HQ/hq/ds/dsk/Business%20Rules/Forms/AllItems.aspx';" type="button">
+		<i class="fas fa-server fa-4x center"></i><br>SI CELL</button>
+        
+        
+		<!--BELOW IS THE CODE TO COPY THEN PASTE TO MAKE MORE BUTTONS UNDER THE THIS TAB
+		<button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='';" type="button">
+		<i class="fa fa-map fa-4x center-block"></i><br>BUTTON NAME</button> 
+
+<button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='';" type="button">
+		<i class="fa fa-fax fa-4x center-block"></i><br>BUTTON NAME</button>
+		
+		<button class="btn1 btn1-block btn1-primary popshadow" onclick="location.href='';" type="button">
+		<i class="fa fa-book fa-4x center-block"></i><br>BUTTON NAME</button>-->
+
+
+							</center>
+
+
+                                </div>
+
+                            
+</center></div>
+                    </div>
+</div>
+
+
+                    
+<!-- CONTACT BUTTON -->
+
+<div tabindex="0" class="tab-pane  fade active in" id="tabBody3" role="tabpanel" aria-hidden="true" aria-labelledby="tab3">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <h2 style=" color:gray; text-align: center">CONTACT INFORMATION</h2>
+
+
+<!-- First Table -->
+<table id="customers">
+  <tbody><tr>
+    <th>Org Box Email</th>
+  </tr>
+  <td>AFGSC.KM.Workflow@us.af.mil</td>
+
+</tr></tbody></table>
+
+<br>
+<br>
+<br>
+
+
+<!-- Second Table-->
+<table id="customers">
+
+  <tbody><tr>
+    <th>Office</th>
+    <th>Title</th>
+    <th>Name</th>
+    <th>Phone</th>
+  </tr>
+  <tr>
+    <td>Knowledge Management</td>
+    <td>Superintendent</th>
+    <td>MSgt Andrew Jackson</th>
+    <td>456-4570</th>
+  <tr>
+    <td>Strategic Innovation Cell</td>
+    <td>NCOIC</th>
+    <td>SSgt Stephen Burtrum</th>
+    <td>456-4981</th>
+</tbody></table>
+
+</body>
+</html>
+

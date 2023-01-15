@@ -1,0 +1,131 @@
+CSS distro list
+olsen wants full control 
+add a method to auto update her removing a user from the distro list will remove a user from the SharePoint site.
+not possile, 2 separate systems, active directory is separate from sharepoint.
+
+Wait til' Kalimatta.
+
+On Submit Form:
+	remove Full Name
+
+	replace block 2. Indefintie Re-enlistment (after 12 years TIS) with "First-term Airman BOP" under the Reason of Priority
+	replace the digits with the priority word. 
+
+	remove "for assignment only" from all of the fields for "SRB Zone", "CMS Case", "Re-Up Date of Preference", "RNLTD", 
+
+	add "(Valid for 30 days)" to "Article 137 Briefing date"
+
+	Remove "CMS Case for assigment only"
+
+	Add a field "SNCO Only: Promotion line number" (non required field)
+	string of digits - a three, four, or five digit number
+
+	rename Global lookup to Full Name and make it required.
+	in Full Name write Full Name (Last Name, First Name)
+
+	Remove "Organization"
+	Do not make Unit/Squadron optional. requiered
+
+Research: 
+Can't be less than 48 hours error message and check for Re-Up Date of Preference (for Assignemnt Only)
+Add Cant be less than 48 hours error message to Date of Separation
+RNLTD and Article error message for date before today.
+
+Add Pass Code to the sumbit form so it can be used as a password. This is unit code, a four digit number. Make it a required. 
+
+Remove fields from Edit form:
+	MPF Technician 
+	Date Completed
+
+Power Automate for sending Pertinent Info email. send to Full Name for when the MPF Technician is assigned.
+
+when Extensions for Request Type is selected, add new fields.
+
+
+add km workflow to contact support.
+
+Under Contacts add the org box for the MPF center.
+	Org Box		Phone Number		Option number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i wnt josh
+yawn contagious
+watch he'll come back with it Calvin said about his driver's license.
+Brandon said hey man.
+what I say too said mom.
+from the crying game calvin said about ra and ra being queer
+I remmeber that.
+IQ go up said mom.
+Cigarettes and bought the farm.
+Cassie she said.
+Sterilize them they said to them.
+the enemy of my enemy is my friend he said.
+senoir.
+Texas I said to Uncle Tommy.
+My Hannibal Lecter would be tripping over stuff.
+Hated the dog said dad.
+tracey and "This is she." she said.
+not random she said.
+Brad shook my hand.
+Too much t.v. said Oma, Welweeta she said, mom and Oma being pretty.
+real stud said Jennifer, Dad said it was real quiet with all of the snow.
+You don't have second sight she said.
+Mom's dad's puppett made Calvin laugh.
+building a wireframe.
+Yannick and graduated I told him.
+Afro boy production.
+He came back said mom. Hes not that funny. Mitchell cared about how he looked he said. Are you still mad at me I said or asked him.
+a girlfriend I said to Sav.
+Oma was in here when I did my impression.
+Alchemy at SAU I said to them and all.
+Pick up your stehtoscope and walk.
+New haircut said Calvin.
+put your foot in yur mouth I said. Carl said I had better social skills.
+That girl looked at ya' said mom. mahm.
+I'm putting him to work he said.
+Wallered all over me said mom.
+You were wide awake said Austin, Is the dumbest fucking title I have ever heard said Calvin.
+Mom knew not about Alicia.
+Jarrad and cut the cheese joke.
+Bridgette said those things are gross she said.
+MF word I said about M & M.
+Mathemagic they said. Our old friend he said. Mom and how queer Wendell Caskey was in his senior picture.
+Calvin and the stupid waving in the fifth grade at the dugout.
+He reads loud they said.
+And walk away about shania, if shania was mine, the stupid dancing in the fourth grade.
+Francis phone call said mom.
+Boy that cat sure got after yo' ass said Zach.
+Rolled his eyes said Ceila, Mom thought it was Ceila.
+Burt called him what's his nut about Kyle.
+Ghost Riders in the sky sang Oma.
+S and the piggies.
+Don't you wish you had one of these said Jennifer.
+Chyenne said hey why you going to bed so early.
+Shane just nodded when I thought I was quitting over my badge.
+Whoa! You were skinny in SAU card said mom.
+You ain't the only one that knows some shit said Mitchell to Burt.
+Djonn looked up when I said SAU.
+the bee sting scared me when i was 13.
+face go back to the right color said Shaw. Was that your grandma asked the black security guard in little rock.
+Too bad Josh's hasn't done that said Calvin, and then he said you know I'm joking. Everlaine was mad at me.
+Access to memories.
+Mom called and said I got to go.

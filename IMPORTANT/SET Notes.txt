@@ -1,0 +1,7 @@
+A message for entering objective name twice.
+
+Popup modal for refreshing page.
+
+1) click on the obective name from workspace 
+2) Obective detaials modal pops out with edit, view, and  workspace options (just like for the modal on the timeline).
+3) Remove the view workspace buttons

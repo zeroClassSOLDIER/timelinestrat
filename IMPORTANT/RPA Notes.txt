@@ -1,0 +1,138 @@
+RPA (robotic process automation) - the technology that allows computer software to mimic actions typically performed by humans interacting with digital systems to execute business processes. 
+	- primarily targets processes that are
+		- Highly manual
+		- repetitive
+		- rule based
+		- low exception rate
+		- standard election readable input
+
+robot - the computer software that executes such operations.
+	- capture data 
+	- run applications
+	- trigger responses
+	- communicate
+
+RPA solutions is made for the business line and is only supported by IT. (Just like for a human workforce)
+
+
+
+In fewer words RPA:
+	Emulates Human Actions
+	Operates any Application with a User Interface
+	Processes Data in Structured Formats
+	Works Continuously
+	Has High Accuracy
+
+RPA is the most talked about type of automation.
+	- non-invasive (Does not require major IT architecture changes or deep integration with undelying systems. RPA offers a reliable, fast and cost-efficient solution for a "light-weight" integration into processes and IT assets)
+	- easy to scale (The amount of work involved by aprocess can vary, as changes are liekly to occur in most business environments. If an RPA solution is used, companies can easily adapt by scaling the solution up or down, depending on the requitements)
+	- future proof (Robots work with today's technology, yet the automations are extensible, able to handle tomorrow's technology)
+
+true value of rpa - it creates a partnership in which the robot and the human are focused each on the tasks that they are best at.
+
+Process Fitness:
+	criteria you can use to evaluate how fit a process is for automation
+	- rule-based => The decisions mande (including data interpretation) in the process can be captured in a pre-defined logic. The exception tare is either low or can be included as well in the business logic.
+	- Automatable and/or repetitive process => 
+		4 types of processes
+			- Manual & non-repetitive: the process steps are performed by humans and can be different every time the process is executed
+			- Manual & repetitive: the steps in the process are performed by the user, and at least soem ot them are the same every time
+			- Semi-automated & repetitive: some of the  repetitive steps have already been automated (using macros, Outlook rules, and so on)
+			- Automated: there are processes that have been already automated using other technologies than RPA
+		Processes that need to stay manual or are non-repetitive, die to the high exception rate or factors that cannot be integated in a business logic, aren't good candidates for automation.
+	- Standard input => The input in the process should either be electronic and easily readable ot readable using a technology that can be associated with RPA (such as OCR). A good example is an invoice having the fields pre-defined.
+	- Stable => Processes that have been the dame for a certain period of time and no changes are expected within the next months are good candidates for automation, provided they meet the other criteria as well.
+
+Automation complexity - The set of criteria determines how hard it is to automate a process.
+	- Number of Screens => RPA works by programming the robot to perdorm tasks at screen level (when the screen changes, the logic has to be taught). The higher the number of screens, the more elements have to be captured and configured prior to the process automation.
+	- Types of Applications => Some applications are more easily automated (such as the Office suite, or Java), others heavily increase the automation effort (Mainframe, for example). And the more different the applications are, the number of screens will increase, aw well (see previous point)
+	- Business Logic Scenarios => An automation's complexity increases with the number of decision points in the business logic. Basically, each one could multiply by two the number of scenarios.
+	- Types and Number of Inputs => As previously stated, standard input is desireable. Yet there are cases in which one standard input (such as an invoice) has to be configures for each supplier that will be affected by the automation. Moreover, non-standard input can be of different complexity grades, with free text being the most complex.
+
+4 categories to split the processes using Process Fitness and Automation Complexity:
+	- No RPA => Processes where change is frequent, the system environment is volatile, and multiple manual (even non-digital) actions are required.
+	- Semi-Automation => Processes that can be broken down into the steps that can be clearly automated, and steps that need to stay manual (such as validations or usage of physical security tokens)
+	- High-cost RPA => Processes that are rather digital and can be automated, but use some technologies that are complex (such as OCR) or require advanced programming skills.
+	- Zero-touch Automation => Processes that are digital and involve a highly static system and process environament, so that they can be easily broken into instrucions and simple triggers can be defined
+
+RPA Journey:
+	- discovery 
+		3 organization wide points to be addressed:
+			1) creating buzz and including as many people as possible
+			2) definig end-to-end process governance
+			3) generating a strong pipeline of automation opportunities and assessing them objectively
+	- build 
+		having professional developers that build enterprise automations.
+		having business users automating parts of their work and parts of their colleague's work.
+	- run 
+		Automations are run through robots. There are different organizational setups and the way robots are doing their part has to take everything into consideration - working in shifts, using virtual machines, and so on. this why the Run stage us crucial.
+	- Manage 
+		The automations built need to be deployed and updated. You need to keep track of them and keep an eye on their usage. In one word, this is what Manage is about.
+	- Engage 
+		Most id the enterprise-wide processes can be automated to a certain extent. Robots will need validation or will encounter exceptions. This is sometimes called "Human in the Loop" and RPA frameworks need to address this. The is what Engage is about.
+	- Measure 
+		RPA will produce an impact in your organization, but just knowing this shouldn't be enough. You need to define metrics and monitor them, so that you will be able to make the right decisions and alignthe RPA operations with your overall strategy. The Measure stage us about using the right tools to track your RPA practice.
+
+RPA Center of Excellence - The team, typically called this, where the RPA expertise and the roles involved are placed that can drive the RPA journey with the right energy, knowledge and tools when a company decides to implement RPA at scale.
+	RPA Developer 
+		The one that uses the RPA development tools to turn automation ideas into reality. While sharing many skills with all the software developers, an RPA Developer usually brings value through he understanding of the business processes in a company.
+	Solution Architect 
+		In charge of difining the Architecture of the RPA solution. The Solution Architect Translates the requirements captured by the functional analysts, creating creating the architecture and design artifacts. Then she leads, does code review and is responsible for the final team delivery.
+	Business Analyst
+		Responsible for ampping the AS IS and proposed TO BE business processes. Business Analysts hold knowledge of the business process to be automated, general business process theory and RPA capabilities. They are responsible with listing the process requirements, lcarifying the inputs and expected outputs and creating RPA documentation.
+	Implementation Manager 
+		Sets up and manages the team working on an RPA initiative, and does availability planning in order to hit automation goals. Most of the time she is the Single Point of Contact (SPOC) for for stakeholders outside the core team.
+	Infrastrucutre Engineer
+		With goos technical and securty skills, they are responsible for setting ip nad maintaining the hardware and software resources for the RPA development, testing and further on, during the lifecycle or the solution.
+	RPA support
+		Their role is to provide support to the users working with the RPA robots, but htey can also be involved in mananging the RPA solution post-implementation.
+
+AI Skills - Artificial Intelligence capabilities such as Natural Language Processing (NLP), Intelligent Optical Character Recognition (OCR) and AI computer vision can enable erobots to take over more advanced tasks.
+
+Machine Learning - Machine Learning capabilities will enable your robots to learn from the automation work they do, so that they gradually improve. This is particularly valuable in the Document Understanding field, but applications can be found in other areas as well.
+
+Long-running Workflows - For a long time, RPA meant automating tasks or only parts of company-wide processes. With support for Long-running Workflows, RPA can tackle more diverse and valualble business scenarios.
+
+Process Mining - RPA is a poweerful tool that can be used for different types of processes. With its scientific approach, Process Mining ensures that you go for processes that bring a lot of value when they are automated.
+
+Native Integrations - RPA typically menas software robots doing what human users do with the mouse and keyboard. When Native Integrations with the most used tools and technologies are added to RPA, it can do much more for a company.
+
+Advanced Analytics - We live in which measuring data is essential. Organizations make a habit from measuring ROI, so why should RPA be an exception? With the right measuremnt toolsm RPA can become a better solution for companies.
+
+hyperautomation - is the approach in which oraganizations rapidly identify and automate as many business processes as possible, including knowledge work. Benefits of hyperautomation include:
+	- The business processes most suited for automation are rapidly and scientifically identified.
+	- By just performing the expected activities, robots learn new skills and gradually improve their work.
+	- People and robots are enabled to automate together basic to complex, end-to-end business processes.
+	- Companies have a thorough and unbiased view on the impact 
+
+Company-driven and employee-driven approach.
+
+Discovery (Automation Hub, Process Mining, Task Mining, Task Capture) => Build (Studio, StudioX) => Manage (Orchestrator, Cloud Platform) =>
+Run (Robots)
+=> Engage (Action Center) => Measure (Insights)
+
+Solution overview:
+1) Discovery
+	- Automation Hub
+	- Process Mining
+	- Task Mining
+ 	- Task Capture
+2) Build 
+	- Studio 
+	- StudioX
+3) Manage 
+	- Orchestrator
+	- Cloud Platform
+4) Run 
+	- Robots
+5) Engage
+	- Action Center
+6) Insights
+	- Measure
+
+
+
+
+
+
+	
